@@ -1,0 +1,840 @@
+@import url('/CSS/font.css');
+
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root{
+    /*   color  */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #fff;
+    --midnight: #104f55;
+
+    /*  gradient color */
+
+    /*  fonts vars*/
+    --Loobster:'Loobster';
+    --lobster: 'lobster';
+    --Cormorant:'Cormorant';
+    --Helvetic:'Helvetic';
+}
+
+/* --------------------------- Global classes -------------------------------*/
+a{
+    text-decoration: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    font-size: 3rem;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    
+}
+.blog-btn{
+    font-size: large;
+    color: rgb(11, 49, 236);
+    font-weight: bold;
+}
+.blog-title h3{
+    font-family: Lucida fax;
+}
+.container{
+    margin: 0.5vw;
+}
+span{
+    color: var(--text-gray);
+}
+.text-gray{
+    color: var(--text-gray);
+}
+p{
+    font-family: Bodoni MT;
+    font-size: 1.2rem;
+}
+/* -----------X--------------- Global classes ----------------X--------------*/
+.logo{
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    border-radius: 5rem;
+}
+/* ----------------------------- nav bar --------------------------------- */
+.nav{
+    /*background-color: whitesmoke;*/
+    background-color:  #dad1d1;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 7vh;
+    /*overflow: hidden;*/
+    transition: height 1s ease-in-out;
+
+}
+
+/* -------------------- menu ------------------*/
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-item{
+    display: flex;
+    margin: 0 auto;
+}
+/* ----------- x --------- menu --------- x ---------*/
+.nav .nav-item .nav-link{
+    padding: 1.1rem 0.2rem;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    position: relative;
+    color: #0f0f0f;
+    font-family: Leeelawadee UI;
+}
+/* ==============================================*/
+.menu ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+.menu ul li{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.menu ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #040404;
+    line-height: 30px;
+
+    
+}
+.menu ul li a:hover{
+    background: red;
+}
+.menu ul ul{
+    position: absolute;
+    top: 50px;
+    display: none;
+    background-color: #fff;
+}
+.menu ul li:hover > ul{
+    display: inline-block;
+}
+.menu ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position:relative;
+    border: 2px solid rgb(230, 18, 18);
+}
+.menu ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 77px;
+    display: block;
+    border: 2px solid rgb(230, 18, 18);
+}
+/*.menu{
+    width: 860px;
+    margin: 0 auto;
+}
+.menu ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.menu ul li{
+    background: #27dbe8;
+    width: 10rem;
+    border: 1px solid #fff;
+    height: 0rem;
+    text-align: center;
+    float: left;
+    color: #fff;
+    
+}
+.sub-nav li a{
+    display: block;
+}*/
+
+/* ================================================================================ 
+.menu{
+    width: 860px;
+    margin: 0 auto;
+}
+.menu ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.menu ul li{
+    background: #070707;
+    width: 10rem;
+    border: 1px solid #fff;
+    height: 0rem;
+    text-align: center;
+    float: left;
+    color: #fff;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.menu ul li:hover{
+    background: red !important;
+
+}
+.menu ul ul{
+    display: none !important;
+}
+.menu ul li:hover > ul{
+    display: block !important;
+}
+.sub-nav li a {
+    display: inline-block !important;
+}
+
+
+.nav .nav-item .nav-link:hover{
+    background-color: aqua;
+    border-radius: 2%;
+}
+.nav .nav-item .nav-link:hover a{
+    color: rgb(17, 9, 240);
+    transform: scale(1.5);
+} */
+/* -------------------- web name (petasco gh) ------------------*/
+.nav .nav-brand a{
+    font-size: 1.3rem;
+    padding :1rem;
+    font-weight: bolder;
+    display: inline-block;
+    font-family: Helvetic;
+}
+/* -------------------- toggle bar ------------------*/
+.nav .toggle-collapse{
+    position: absolute;
+    top: -2%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.8rem 0;
+    padding-right: 0.2rem;
+   
+}
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.8rem;
+    color: var(--text-gray);
+    
+}
+.collapse{
+    height: 25rem;
+}
+/* -------------------- social media styling ------------------*/
+.nav .social{
+    padding: 1.4rem 0;
+}
+.nav .social i{
+    padding: 0.5;
+}
+.nav .social i:hover{
+    color: red;
+}
+
+/* ------------------------------------ search bar ------------------- xxxx -----------------*/
+.search-container{
+    margin-top: 0.6rem; 
+    background: #fff;
+    height: 10px;
+    border-radius: 3rem;
+    padding: 10px 10px;
+    display: flex;
+    align-items: left;
+    transition: 0.8s;
+    box-shadow: 0 0 25px 0 #0f0f0f;
+}
+.search-container:hover input{
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.search-container input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    transition: 0.8s;
+    color: #000;
+    width: 0px;
+    
+}
+
+
+/* ----------------xxx--------- nav bar ----------------xxx-------------- */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* /////////////////// site title \\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.site-title{
+    background: url('/images/bg.jpg');
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+}
+.site-bg{
+    padding-top: 10rem;
+    text-align: center;
+    color: rgb(242, 12, 12);
+}
+.site-title h1,h3{
+    font-weight: bolder;
+    font-family: var(--Cormorant);
+}
+.site-title h1{
+    margin: 0.5rem;
+    font-size: 4rem;
+}
+.site-title h3{
+    margin-top: 10rem;
+    font-size: 2.2rem;
+    color: #040404;
+}
+.site-title .btn{
+    margin-top: 1rem;
+    font-family: var(--Cormorant);
+}
+
+.btn:hover{
+    background-color:rgb(64, 225, 222);
+    color: #040404;
+}
+/* /////// xxx ///// site title \\\\\\\\\ xxx \\\\\\\\\*/
+/* ~~~~~~~~~~~~~~~~~~~~~~ Blog Carousel ~~~~~~~~~~~~~~~~~~~*/
+main .blog{
+    background: url('/images/img1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: #fff;
+    background-color: aliceblue;
+    padding-bottom: 2rem;
+}
+main .blog-content .blog-title{
+    padding: 2rem 0;
+}
+main .blog-content .blog-btn{
+    padding: 0.7rem 2rem;
+    background-color: skyblue;
+    margin: 0.5rem;
+}
+main .blog-content span{
+    display: block;
+}
+/* section .container .owl-nav */
+section .container .owl-nav{
+    position: absolute;
+    top: 128%;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.owl-nav-prev, .owl-nav-next{
+    color: var(--text-gray);
+    background: aqua;
+    font-size: 2.5rem;
+    border-radius: 2rem;
+}
+
+/*
+.owl-theme .owl-nav[class*='owl-']:hover{
+    background: transparent;
+    color:rgb(230, 18, 18);
+}
+.owl-theme .owl-nav[class*='owl-']{
+    outline: none;
+} */
+/* ~~~~~~~~~~~xx~~~~~~~ Blog Carousel ~~~~~~~~xx~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Site Content ~~~~~~~~~~~~~~~~~~~*/
+main .site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+main .post-content{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+main .site-content .post-content > .post-image, .post-title{
+    padding: 1rem 2rem;
+    position: relative;
+}
+main .post-img{
+    width: 100%;
+    transition: all 1s ease;
+}
+main .post-info{
+background: skyblue;
+padding: 1rem;
+position: absolute;
+bottom: 0%;
+left: 20vh;
+border-radius: 3rem;
+}
+.post-image > div{
+    overflow: hidden;
+}
+main .site-content .post-content > .post-image .post-img:hover{
+    transform: scale(1.4);
+}
+.post-info span{
+   margin: 0.5rem; 
+}
+/*  Barlow condensed semibold, Baskerville old face, Cormorant infant( light, medium, semibold), imprint mt shadom, colonna mt)*/
+.post-title a{
+    font-family: Baskerville old face;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+main .site-content .post-content .post-title .blog-btn{
+    font-size: 1.2rem;
+    padding: 0.7rem 1.4rem;
+    background-color: skyblue;
+}
+.pagination{
+    justify-content: center;
+    color: var(--text-gray);
+    margin: 4rem 0;
+}
+.pagination a{
+    padding: 0.6rem 0.9rem;
+    border-radius: 2rem;
+    margin: 0.3rem;
+    font-family: Leeelawadee UI;
+}
+.page-no{
+    background-color: aqua;
+    color: #040404;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.arrows{
+    background-color: rgb(0, 0, 0);
+    color: #18daca;
+    font-size: 1.2rem;
+}
+/* ~~~~~~~XXX~~~~~~~ Site Content ~~~~~~~~XXX~~~~~~~*/
+
+/* |||||||||||||||||||||||||||||||| Side bar  |||||||||||||||||||||||||||||*/
+/* ----------- -------- Category  ---------- --------*/
+/*Bodoni MT, Cambria , Consolas , Leeelawadee UI , Lucidabright ,
+Lucida Console, Lucida fax, Lucida sans */
+.side-bar .category-list{
+    font-family: Consolas ;
+}
+.list-items{
+    background-color: #18daca;
+    padding: 0.4rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 3rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Lucida sans;
+}
+.list-items a{
+    color: #040404;
+}
+/* ----------- xx ---------  Category ------- xx ------*/
+
+/* ~~~~~~~~~~~~~~~~~~~ Popular Post ~~~~~~~~~~XXX~~~~~~~~*/
+.popular-post .post-content{
+    padding: 1rem 0;
+    
+}
+.popular-post h2{
+    padding-top: 10rem;
+    font-family: Georgia;
+}
+.popular-post .post-info{
+    padding: 0.2rem 0.1rem !important;
+    bottom: 0rem !important;
+    left: 1rem !important;
+    border-radius: 0rem !important;
+    background: rgb(255, 255, 255);
+}
+.popular-post .post-title a{
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 0rem;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Recent Posts ~~~~~~~~~~~ XXXXXXXX ~~~~~~~~~~~~~*/
+
+
+.recent-post .post-content{
+    padding: 0rem 0;
+    
+}
+.recent-post-image{
+    position: relative;
+    text-align: left;
+    color: rgb(242, 218, 218);
+    display: flex;
+}
+
+
+.recent-post .post-info{
+    padding: 0.2rem 0rem !important;
+    bottom: 10% !important;
+    left: 10% !important;
+    border-radius: 0.8rem !important;
+    background: #dad1d1;
+}
+.recent-post-image .post-img:hover{
+    transform: scale(1.2);
+    transition: all 1s ease;
+    transform: scale(1.4) !important;
+}
+
+/* ===================================================== xxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.recent-post .post-image .post-title{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-110%);
+    padding: 0.2rem 0rem !important;
+    width: 350px;
+    height: auto;
+    
+}
+.recent-post .post-image .post-title a{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    position: relative;
+    background-color: rgb(235, 21, 21);
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Newsletter ~~~~~~~~~~XXX~~~~~~~~*/
+.form-element{
+    padding: 0.5rem 2rem;
+}
+.news-para{
+    background-color:  aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    border-radius: 3rem;
+}
+.input-element{
+    width: 90%;
+    height: 1.8rem;
+    padding-top: 0rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 3rem;
+    border-color: aqua;
+}
+.form-btn{
+    background-color: aqua;
+    border-radius: 2rem;
+    padding: 0.8rem 38%;
+    margin: 1rem 0rem;
+    border: #18daca;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ Popular Tags ~~~~~~~~~~XXX~~~~~~~~*/
+.popular-tags{
+    padding: 5rem 0rem;
+}
+.popular-tags .tags .tag{
+    background-color: #18daca;
+    padding: 0.4rem 1rem;
+    border-radius: 3rem;
+    margin: 0.4rem 0.6rem;
+}
+
+/* ||||||||||||| xx ||||||||| Side bar  |||||||||||||||| xx ||||||||||||||||*/
+
+/* ~~~~~~~~~~xx~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~xx~~~~~~~~~~*/
+
+/* =============================== Footer ====================================*/
+.footer{
+    height: 100%;
+    background: aqua;
+    position: relative;
+}
+.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 2rem 0.8rem;
+}
+.newsletta .form-element{
+    background-color: #18daca;
+    display: inline-block;
+}
+.newsletta .form-element input{
+    padding: 0.5rem 0rem;
+    border: none;
+    background: transparent;
+    width: 80%;
+    outline-color: #18daca;
+}
+.newsletta .form-element span{
+    background-color: #0f0f0f;
+    padding: 0.5rem 0rem;
+    cursor: pointer;
+    width: 2.5rem;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.newsletta .follow-us-icons i:hover{
+    color: rgb(242, 12, 12);
+    cursor: pointer;
+}
+/* instagram div*/
+.footer .instagram div > img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: 0.3rem 0.4rem;
+}
+.newsletta div i{
+    padding: 0.4rem;
+    font-size: 2.0rem;
+}
+.footer .copy-right{
+    justify-content: center;
+}
+.contract{
+    padding: 0.1rem 1.8rem;
+}
+.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 85%;
+}
+.footer .move-up span:hover{
+    color: red;
+    cursor: pointer;
+}
+/* ==============xxx============== Footer ==================xxx================*/
+
+/* -------------------- viewport <= 520px ------------------*/
+@media only screen and (max-width: 520px){
+    main .blog{
+        height: 125vh;
+    }
+    .post-image .post-info{
+        display: none;
+
+    }
+    .footer .container > div{
+        padding: 1rem 0.9rem !important;
+    }
+    .footer .copy-right{
+        padding: 0rem 1.2rem;
+    }
+    nav .toggle-collapse{
+        width: 90% !important;
+ 
+    }
+    .nav{
+        overflow: hidden;
+    }
+}
+
+/* -------------------- viewport <= 750px ------------------*/
+@media only screen and (max-width: 750px){
+    .nav .nav-menu,.nav .nav-item{
+        flex-direction: column;
+    }
+    .nav{
+        background-color:  #dad1d1;
+    }
+    .nav .toggle-collapse{
+        display: initial;
+    }
+    .nav .toggle-collapse:hover{
+        color: red;
+    }
+    .nav .nav-item .nav-link{
+        padding: 0.2rem;
+    }
+    main .site-content{
+        grid-template-columns: 100%;
+    }
+    main .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+
+    }
+    .footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* -------------------- viewport <= 1060px ------------------*/
+@media only screen and (max-width: 1060px){}
+.nav .social{
+    padding: 1.2rem 0;
+}
+.nav .social i{
+    padding: 0.2;
+}
+
+/* -------------------- viewport <= 1130px ------------------
+@media only screen and (max-width: 1130px){
+    main .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+
+    }
+    .popular-post .post-info{
+        display: none !important;
+    }
+    .footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* ----------- xx --------- viewport <= 1130px ---------- xx --------*/
+
+
+/* -------------------- viewport <= 750px ------------------*/
+@media only screen and (max-width: 1130px){
+
+    main .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+    }
+    .nav .nav-menu,.nav .nav-item{
+        flex-direction: column;
+    }
+    .nav{
+        background-color: #dad1d1;
+    }
+    .nav .toggle-collapse{
+        display: initial;
+    }
+    .nav .toggle-collapse:hover{
+        color: red;
+    }
+    .nav .nav-item .nav-link{
+        padding: 0.2rem;
+    }
+    main .site-content{
+        grid-template-columns: 100%;
+    }
+    main .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+
+    }
+    .footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav{
+        overflow: hidden;
+    }
+
+
+    .site-title h1{
+        margin: 0.5rem;
+        font-size: 4rem;
+    }
+    .site-title h3{
+        margin-top: 0rem;
+        font-size: 2.2rem;
+        color: #040404;
+    }
+    .site-title .btn{
+        margin-top: 1rem;
+        font-family: var(--Cormorant);
+    }
+    
+    /* ----------- x --------- menu --------- x ---------*/
+    .nav .nav-item .nav-link{
+    padding: 0.2rem 0.2rem;
+    font-size: 1.2rem;
+    text-align: left;
+    border: 2px solid aqua;
+    }
+    /* -------------------- social media styling ------------------*/
+    .nav .social{
+        padding: 1.5rem 0;
+    }
+    .nav .social i{
+        padding: 0.5;
+        font-size: 1.5rem;
+    }
+    .nav .social i:hover{
+        color: red;
+    }
+
+   /* ======================= menu styling for mini screen =========================*/
+
+    .menu ul li:hover > ul{
+        display: inline-block;
+       margin-left: -120px;
+       margin-top: -130px;
+       font-size: 0.8rem;
+    }
+    .menu ul ul li{
+        width: 120px;
+        float: none;
+        display: block;
+        position: relative;
+        border: 2px solid rgb(230, 18, 18);
+    }
+    .menu ul ul ul li{
+        margin-left: -150px;
+        margin-bottom: 0px;
+        position: relative;
+        top: 20px;
+        left: 77px;
+        display: block;
+        border: 2px solid rgb(230, 18, 18);
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 1400px){
+    .search-container{
+        display: none;
+    }
+}
