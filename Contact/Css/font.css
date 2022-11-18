@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Loobser;
+    src: url('/fonts/LobsterTwo-Bold.ttf');
+}
+@font-face {
+    font-family: lobster;
+    src: url('/fonts/LobsterTwo-Regular.ttf');
+}
+
+@font-face {
+    font-family: Helvetic;
+    src: url('/fonts/Almarai-Bold.ttf');
+}
+@font-face {
+    font-family: Cormorant;
+    src: url('/fonts/Cormorant-Bold.ttf');
+}
+@font-face {
+    font-family: DMS;
+    src: url('/fonts/DMSerifDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: Fjallone;
+    src: url('/fonts/FjallaOne-Regular.ttf');
+}

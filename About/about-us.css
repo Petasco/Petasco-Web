@@ -1,0 +1,219 @@
+/* this is the about us content css file, the header/nav and the footer css are styled in the style.css file*/
+
+.About-Us{
+    width: 100%;
+    padding: 10px;
+    padding-top: 70px !important;
+    background: url('/images/bg.jpg');
+    justify-content: space-around;
+}
+.About-Us .about-us-container img{
+    height: auto;
+    width: 600px;
+    padding-right: 20px;
+}
+.About-Us .about-us-container img:hover{
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+.about-us-text{
+    width: 600px;
+    background-color: aqua;
+    padding-left: 20px;
+}
+.About-Us .about-us-container{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.About-Us .about-us-text:hover{
+    transform: scale(1.2);
+    transition: all 1s ease;
+    background: aliceblue;
+}
+.About-Us .about-us-container h1{
+    font-size: 50px;
+}
+.About-Us .about-us-container h3{
+    font-size: 27px;
+}
+.About-Us .about-us-container p{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+.About-Us .about-us-container .starting-letter{
+    font-size: 50px;
+    padding-right: -25px;
+}
+.about-us-btn{
+    font-size: 1.5rem;
+}
+
+
+/* ====================================================== services ===============xxxxxxxxxxxxxxxxxxx===================*/
+.services-container{
+    width: 100vw;
+    background: #c8e8e0;
+    padding-top: 50px;
+}
+.services-container h1{
+    text-align: center;
+    font-size: 50px;
+}
+.services-row{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    background: aqua;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: -1;
+    border-radius: 20px;
+}
+.box{
+    width: 320px;
+    height: 560px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+.box:hover::before{
+    left: 0%;
+}
+.box img{
+    width: 300px;
+    padding-top: 20px;
+}
+.box .text-box h3{
+    font-size: 25px;
+    padding-top: 10px;
+    color: #2e937a;
+}
+.box .text-box p{
+    text-align: center !important;
+    padding: 20px;
+    padding-top: 2px !important;
+}
+/* ======================================= media query =================================================================*/
+@media only screen and (max-width:1300px){
+    .About-Us .about-us-container{
+        width: 1200px;
+        max-width: 80%;
+        margin: 0 auto;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        padding-right: 0px !important;
+    }
+    .About-Us .about-us-container img{
+        height: auto;
+        width: 850px;
+        padding-right: 0 !important;
+       
+    }
+    .about-us-text{
+        width: 850px;
+        background-color: aqua;
+       
+    }
+    .about-us-btns button{
+        display: inline-block;
+        font-size: 1.5rem;
+        width: 200px;
+    }
+
+
+}
+
+@media only screen and (max-width:900px){
+    .About-Us .about-us-container{
+        width: 1200px;
+        max-width: 80%;
+        margin: 0 auto;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        padding-right: 0px !important;
+    }
+    .About-Us .about-us-container img{
+        height: auto;
+        width: 500px;
+        padding-right: 0 !important;
+       
+    }
+    .about-us-text{
+        width: 500px;
+        background-color: aqua;
+       
+    }
+    .about-us-btns button{
+        display: inline-block;
+        font-size: 1.5rem;
+        width: auto;
+    }
+    .services-row{
+        padding-top: 0px;
+        padding-bottom: 50px;
+        width: 1000px;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box{
+        padding-bottom: 25px !important;
+    }
+
+}
+
+@media only screen and (max-width:520px){
+    .About-Us .about-us-container{
+        width: 1200px;
+        max-width: 80%;
+        margin: 0 auto;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        padding-right: 0px !important;
+    }
+    .About-Us .about-us-container img{
+        height: auto;
+        width: 350px;
+        padding-right: 0 !important;
+       
+    }
+    .about-us-text{
+        width: 350px;
+        background-color: aqua;
+       
+    }
+    .about-us-btns button{
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+
+}

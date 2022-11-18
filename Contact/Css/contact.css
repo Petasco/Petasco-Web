@@ -148,53 +148,6 @@ p{
     border: 2px solid rgb(230, 18, 18);
 }
 
-/* ================================================================================ 
-.menu{
-    width: 860px;
-    margin: 0 auto;
-}
-.menu ul{
-    list-style: none;
-    margin-top: 2%;
-}
-.menu ul li{
-    background: #070707;
-    width: 10rem;
-    border: 1px solid #fff;
-    height: 0rem;
-    text-align: center;
-    float: left;
-    color: #fff;
-    position: relative;
-}
-.menu ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-.menu ul li:hover{
-    background: red !important;
-
-}
-.menu ul ul{
-    display: none !important;
-}
-.menu ul li:hover > ul{
-    display: block !important;
-}
-.sub-nav li a {
-    display: inline-block !important;
-}
-
-
-.nav .nav-item .nav-link:hover{
-    background-color: aqua;
-    border-radius: 2%;
-}
-.nav .nav-item .nav-link:hover a{
-    color: rgb(17, 9, 240);
-    transform: scale(1.5);
-} */
 /* -------------------- web name (petasco gh) ------------------*/
 .nav .nav-brand a{
     font-size: 1.3rem;
@@ -268,316 +221,156 @@ p{
 
 
 /* ----------------xxx--------- nav bar ----------------xxx-------------- */
+/* ==================================== toggle menu ======================= xxxxxxxxxxxxxxxxxxx==================*/
 
-/* ~~~~~~~~~~~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* /////////////////// site title \\\\\\\\\\\\\\\\\\\\\\\\\\*/
-.site-title{
-    background: url('/images/bg.jpg');
-    background-size: cover;
-    height: 120vh;
-    display: flex;
-    justify-content: center;
+/* ===================================================== content ===================================================*/
+.contact-img{
+    background: url('/images/img\ \(11\).jpg');
+    padding: 5px
 }
-.site-bg{
-    padding-top: 10rem;
+.contact-heading{
     text-align: center;
-    color: rgb(242, 12, 12);
 }
-.site-title h1,h3{
-    font-weight: bolder;
-    font-family: var(--Cormorant);
-}
-.site-title h1{
-    margin: 0.5rem;
-    font-size: 4rem;
-}
-.site-title h3{
-    margin-top: 10rem;
-    font-size: 2.2rem;
-    color: #040404;
-}
-.site-title .btn{
-    margin-top: 1rem;
-    font-family: var(--Cormorant);
-}
-
-.btn:hover{
-    background-color:rgb(64, 225, 222);
-    color: #040404;
-}
-/* /////// xxx ///// site title \\\\\\\\\ xxx \\\\\\\\\*/
-/* ~~~~~~~~~~~~~~~~~~~~~~ Blog Carousel ~~~~~~~~~~~~~~~~~~~*/
-main .blog{
-    background: url('/images/img1.jpg');
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 100vh;
-    width: 100%;
-}
-main .blog-post .blog-content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.contact-wrap{
     width: 80%;
-    margin: 3rem 2rem;
-    box-shadow: #fff;
-    background-color: aliceblue;
-    padding-bottom: 2rem;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
-main .blog-content .blog-title{
-    padding: 2rem 0;
+.contact-info{
+    padding: 40px 30px;
+    box-shadow: #000;
 }
-main .blog-content .blog-btn{
-    padding: 0.7rem 2rem;
-    background-color: skyblue;
-    margin: 0.5rem;
-}
-main .blog-content span{
-    display: block;
-}
-/* section .container .owl-nav */
-section .container .owl-nav{
-    position: absolute;
-    top: 128%;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    cursor: pointer;
-}
-.owl-nav-prev, .owl-nav-next{
-    color: var(--text-gray);
-    background: aqua;
-    font-size: 2.5rem;
-    border-radius: 2rem;
-}
-
-/*
-.owl-theme .owl-nav[class*='owl-']:hover{
-    background: transparent;
-    color:rgb(230, 18, 18);
-}
-.owl-theme .owl-nav[class*='owl-']{
-    outline: none;
-} */
-/* ~~~~~~~~~~~xx~~~~~~~ Blog Carousel ~~~~~~~~xx~~~~~~~~~*/
-
-/* ~~~~~~~~~~~~~~~~~~~~~~ Site Content ~~~~~~~~~~~~~~~~~~~*/
-main .site-content{
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
-main .post-content{
-    width: 100%;
-    margin-bottom: 5rem;
-}
-main .site-content .post-content > .post-image, .post-title{
-    padding: 1rem 2rem;
-    position: relative;
-}
-main .post-img{
-    width: 100%;
-    transition: all 1s ease;
-}
-main .post-info{
-background: skyblue;
-padding: 1rem;
-position: absolute;
-bottom: 0%;
-left: 20vh;
-border-radius: 3rem;
-}
-.post-image > div{
-    overflow: hidden;
-}
-main .site-content .post-content > .post-image .post-img:hover{
+.contact-info:hover{
     transform: scale(1.4);
-}
-.post-info span{
-   margin: 0.5rem; 
-}
-/*  Barlow condensed semibold, Baskerville old face, Cormorant infant( light, medium, semibold), imprint mt shadom, colonna mt)*/
-.post-title a{
-    font-family: Baskerville old face;
-    font-size: 1.8rem;
-    font-weight: bolder;
-}
-main .site-content .post-content .post-title .blog-btn{
-    font-size: 1.2rem;
-    padding: 0.7rem 1.4rem;
-    background-color: skyblue;
-}
-.pagination{
-    justify-content: center;
-    color: var(--text-gray);
-    margin: 4rem 0;
-}
-.pagination a{
-    padding: 0.6rem 0.9rem;
-    border-radius: 2rem;
-    margin: 0.3rem;
-    font-family: Leeelawadee UI;
-}
-.page-no{
-    background-color: aqua;
-    color: #040404;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-.arrows{
-    background-color: rgb(0, 0, 0);
-    color: #18daca;
-    font-size: 1.2rem;
-}
-/* ~~~~~~~XXX~~~~~~~ Site Content ~~~~~~~~XXX~~~~~~~*/
-
-/* |||||||||||||||||||||||||||||||| Side bar  |||||||||||||||||||||||||||||*/
-/* ----------- -------- Category  ---------- --------*/
-/*Bodoni MT, Cambria , Consolas , Leeelawadee UI , Lucidabright ,
-Lucida Console, Lucida fax, Lucida sans */
-.side-bar .category-list{
-    font-family: Consolas ;
-}
-.list-items{
-    background-color: #18daca;
-    padding: 0.4rem 1rem;
-    margin: 0.8rem 0;
-    border-radius: 3rem;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    font-family: Lucida sans;
-}
-.list-items:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: all 0.5s ease;
-}
-.list-items a{
-    color: #040404;
-}
-/* ----------- xx ---------  Category ------- xx ------*/
-
-/* ~~~~~~~~~~~~~~~~~~~ Popular Post ~~~~~~~~~~XXX~~~~~~~~*/
-.popular-post .post-content{
-    padding: 1rem 0;
-    margin-bottom: 0;
-    
-}
-.popular-post h2{
-    padding-top: 10rem;
-    font-family: Georgia;
-    
-}
-.popular-post .post-info{
-    padding: 0.2rem 0.1rem !important;
-    bottom: 0rem !important;
-    left: 1rem !important;
-    border-radius: 0rem !important;
-    background: rgb(255, 255, 255);
-}
-.popular-post .post-title a{
-    font-size: 1.1rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 0rem;
-    
-}
-
-/* ~~~~~~~~~~~~~~~~~~~ Recent Posts ~~~~~~~~~~~ XXXXXXXX ~~~~~~~~~~~~~*/
-
-
-.recent-post .post-content{
-    padding: 0rem 0;
-    
-}
-.recent-post-image{
-    position: relative;
-    text-align: left;
-    color: rgb(242, 218, 218);
-    display: flex;
-}
-
-
-.recent-post .post-info{
-    padding: 0.2rem 0rem !important;
-    bottom: 10% !important;
-    left: 10% !important;
-    border-radius: 0.8rem !important;
-    background: #dad1d1;
-}
-.recent-post-image .post-img:hover{
-    transform: scale(1.2);
     transition: all 1s ease;
-    transform: scale(1.4) !important;
+
 }
-
-
-.recent-post .post-image .post-title{
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%,-110%);
-    padding: 0.2rem 0rem !important;
-    width: 80%;
-    height: 100px;
-    max-width: 100%;
+.contact-info h2 i{
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    color: #000;
+    background: #f5f5f5;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
     
 }
-.recent-post .post-image .post-title a{
-    font-size: 1.2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgba(250, 251, 255, 0.989);
-    background-color: rgb(63, 62, 62);
-    padding-top: 0rem;
-    position: relative;
+.contact-info:nth-child(1){
+    flex: 40%;
+    background: #18daca;
+    padding-right: 0.8rem;
 }
-/* =============================Recent Posts ================== xxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-/* ~~~~~~~~~~~~~~~~~~~ Newsletter ~~~~~~~~~~XXX~~~~~~~~*/
-.form-element{
-    padding: 0.5rem 2rem;
+.contact-info:nth-child(2){
+    flex: 40%;
+    background: aqua;
 }
-.news-para{
-    background-color:  aqua;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
-    border-radius: 3rem;
+/* ------------------------ contact social media -----------xxxxxxxxxxxx----------------*/
+.contact-info ul{
+    padding: 0;
+    margin: 0;
 }
-.input-element{
-    width: 90%;
-    height: 1.8rem;
-    padding-top: 0rem;
-    padding: 0.3rem 0.5rem;
-    font-size: 1rem;
-    border-radius: 3rem;
-    border-color: aqua;
+.contact-info ul li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 5px;
 }
-.form-btn{
+.contact-info ul i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    
+    background: #f5f5f5;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+.contact-info ul i:hover{
     background-color: aqua;
-    border-radius: 2rem;
-    padding: 0.8rem 38%;
-    margin: 1rem 0rem;
-    border: #18daca;
+    transform: scale(1.2);
 }
 
-/* ~~~~~~~~~~~~~~~~~~~ Popular Tags ~~~~~~~~~~XXX~~~~~~~~*/
-.popular-tags{
-    padding: 5rem 0rem;
+/* ------------------------ contact form --------------xxxxxxxxxxxxxxxxxxxx----------------*/
+.contact-info form{
+    width: 100%;
+    height: auto;
 }
-.popular-tags .tags .tag{
-    background-color: #18daca;
-    padding: 0.4rem 1rem;
+.contact-info-input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-left: 5px;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: poppins;
+}
+.contact-info-textarea{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: poppins;
+}
+.contact-info-textarea::placeholder{
+    font-size: 20px;
+}
+.contact-info-btn{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #fff;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: 400;
     border-radius: 3rem;
-    margin: 0.4rem 0.6rem;
+}
+.contact-info-btn:hover{
+    background: red;
+    cursor: pointer;
+}
+/* ===================================== google map ============================*/
+.contact-info-map h2{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 2rem;
+    background-color: #dad1d1;
+    border-radius: 3rem;
+}
+.contact-info-map h2:hover{
+    background: aquamarine;
+    transform: scale(1.1);
+}
+.contact-info-map iframe{
+    width: 100%;
+    padding: 25px;
+    padding-top: 0;
 }
 
-/* ============================== share-this ==============xxxxxxxxxxxxxxxxxx================*/
-.share-this{
-    padding-top: 50px;
+/* - ==================================media query ============================ */
+@media only screen and (max-width:1160px){
+    .contact-info:nth-child(1){
+        flex: 50%;
+        background: #18daca;
+        padding-right: 0.8rem;
+    }
+    .contact-info:nth-child(2){
+        flex: 50%;
+        background: aqua;
+    }
+   
+    
 }
-
-/* ||||||||||||| xx ||||||||| Side bar  |||||||||||||||| xx ||||||||||||||||*/
-
-/* ~~~~~~~~~~xx~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~xx~~~~~~~~~~*/
-
 /* =============================== Footer ====================================*/
 .footer{
     height: 100%;
@@ -815,17 +608,11 @@ Lucida Console, Lucida fax, Lucida sans */
         border: 2px solid rgb(230, 18, 18);
     }
 
-    /* ============= sidebar popular post and recent post styling =============xxxxxxx======*/
-    .popular-post .post-content .post-image{
-        width: 350px;
-    }
-    .recent-post .post-content .post-image{
-        width: 350px;
-    }
+    
 
 }
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1400px){
     .search-container{
         display: none;
     }
