@@ -63,6 +63,10 @@ p{
     font-family: Bodoni MT;
     font-size: 1.2rem;
 }
+/* -----------X--------------- Global Article Styling  -------XXXXXXXXXXXXXXXX---------*/
+.article-title{
+    font-size: 30px;
+}
 /* -----------X--------------- Global classes ----------------X--------------*/
 .logo{
     padding: 0;
@@ -114,6 +118,7 @@ p{
 
 }
 .menu ul li a{
+    text-transform: uppercase;
     display: block;
     padding: 0 15px;
     color: #040404;
@@ -241,7 +246,7 @@ p{
 .search-container{
     margin-top: 0.6rem; 
     background: #fff;
-    height: 10px;
+    height: 15px;
     border-radius: 3rem;
     padding: 10px 10px;
     display: flex;
@@ -272,20 +277,25 @@ p{
 /* ~~~~~~~~~~~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* /////////////////// site title \\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .site-title{
-    background: url('/images/bg.jpg');
+    background: url('/Photos/world.jpg');
     background-size: cover;
     height: 120vh;
     display: flex;
     justify-content: center;
 }
 .site-bg{
-    padding-top: 10rem;
+    padding-top: 15rem;
     text-align: center;
     color: rgb(242, 12, 12);
 }
 .site-title h1,h3{
     font-weight: bolder;
     font-family: var(--Cormorant);
+    
+}
+.site-title .bg-text{
+    background-color: rgba(0, 0, 0, 0.23);
+    margin:0 1rem;
 }
 .site-title h1{
     margin: 0.5rem;
@@ -294,7 +304,7 @@ p{
 .site-title h3{
     margin-top: 10rem;
     font-size: 2.2rem;
-    color: #040404;
+    color: #f4f2f2;
 }
 .site-title .btn{
     margin-top: 1rem;
@@ -326,6 +336,14 @@ main .blog-post .blog-content{
 }
 main .blog-content .blog-title{
     padding: 2rem 0;
+}
+.blog .container .blog-content .blog-title h4 a{
+    color: #000;
+    font-size: 17px;
+    background-color: aqua;
+    border-radius: 3rem;
+    padding: 5px;
+    padding: 3px 50px;
 }
 main .blog-content .blog-btn{
     padding: 0.7rem 2rem;
@@ -494,6 +512,7 @@ Lucida Console, Lucida fax, Lucida sans */
     text-align: left;
     color: rgb(242, 218, 218);
     display: flex;
+    opacity: -1.5rem;
 }
 
 
@@ -516,19 +535,23 @@ Lucida Console, Lucida fax, Lucida sans */
     top: 75%;
     left: 50%;
     transform: translate(-50%,-110%);
-    padding: 0.2rem 0rem !important;
+    padding: 1.325rem!important;
     width: 80%;
     height: 100px;
     max-width: 100%;
+    text-align: center;
     
 }
 .recent-post .post-image .post-title a{
+    padding: 1rem;
     font-size: 1.2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(250, 251, 255, 0.989);
-    background-color: rgb(63, 62, 62);
+    background-color: rgba(0, 0, 0, 0.497);
     padding-top: 0rem;
     position: relative;
+    opacity: -30rem;
+    /*background: transparent;*/
 }
 /* =============================Recent Posts ================== xxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /* ~~~~~~~~~~~~~~~~~~~ Newsletter ~~~~~~~~~~XXX~~~~~~~~*/

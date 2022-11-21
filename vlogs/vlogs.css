@@ -1,0 +1,17 @@
+
+/* ====================== main ================================================*/
+main .topics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+   
+}
+
+main .topics-list{
+    margin: 0 auto;
+}
+main .topics-list ul li{
+    flex-direction: row;
+}

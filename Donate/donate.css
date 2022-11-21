@@ -25,6 +25,7 @@
     text-align: center;
     background-color: rgba(103, 101, 101, 0.53);
     padding-top: -50px;
+    
 }
 
 
@@ -61,12 +62,13 @@
     flex-direction: column;
     margin: 0 20px;
     padding: 20px 8px;
+    box-shadow: 0 0 25px 0 #0f0f0f;
 }
 .donation-box .icon{
     font-size: 50px;
     background-color: #fff;
     padding: 10px;
-    border-radius: 3rem;
+    border-radius: 50px;
 }
 .donation-box .icon:hover{
     transition: all 1s ease;
@@ -77,10 +79,9 @@
 .donation-box .icon img{
     width: 70px;
     height: 70px;
-    border-radius: 25px;
+    border-radius: 50px;
 }
-.donation-box h5{
-    font-size: 25px;
+.donation-box h2{
     padding-bottom: 0;
 }
 
@@ -94,5 +95,12 @@
         width: 90%;
         display: flex;
         margin: 20px 0;
+    }
+
+    .title{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 40px;
+        
     }
  }

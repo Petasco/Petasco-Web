@@ -224,8 +224,12 @@ p{
 /* ==================================== toggle menu ======================= xxxxxxxxxxxxxxxxxxx==================*/
 
 /* ===================================================== content ===================================================*/
+.contact-us{
+    width: 100%;
+    padding-top: 70px;
+}
 .contact-img{
-    background: url('/images/img\ \(11\).jpg');
+    background: url('/Photos/contact-bg.jpg');
     padding: 5px
 }
 .contact-heading{
