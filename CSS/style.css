@@ -277,7 +277,7 @@ p{
 /* ~~~~~~~~~~~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* /////////////////// site title \\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .site-title{
-    background: url(../Photos/world.jpg);
+    background: url(../../Photos/world.jpg);
     background-size: cover;
     height: 120vh;
     display: flex;
