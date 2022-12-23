@@ -10,7 +10,7 @@
 }
 
 .text{
-    background: url('/images/960x0.jpg');
+    background: url('../images/960x0.jpg');
     align-items: center;
     justify-content: center;
 }
