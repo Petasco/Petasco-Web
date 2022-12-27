@@ -311,9 +311,9 @@ p{
     border: 1px solid #fff;
     outline: none;
     padding-left: 5px;
-    font-size: 22px;
-    font-weight: 200;
-    font-family: poppins;
+    font-size: 14x;
+    font-weight: bolder;
+    font-family: Georgia;
 }
 .contact-info-textarea{
     width: 100%;
@@ -323,8 +323,8 @@ p{
     outline: none;
     padding-left: 5px;
     font-size: 15px;
-    font-weight: 200;
-    font-family: poppins;
+    font-weight: bolder;
+    font-family: Georgia;
 }
 .contact-info-textarea::placeholder{
     font-size: 20px;
