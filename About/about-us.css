@@ -61,6 +61,7 @@
     width: 100vw;
     background: #c8e8e0;
     padding-top: 50px;
+    align-content: center;
 }
 .services-container h1{
     text-align: center;
@@ -74,6 +75,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
 
 }
 .box::before{
@@ -98,6 +100,9 @@
     overflow: hidden;
     transition: 0.5s;
     box-shadow: 0 0 25px 0 #0f0f0f;
+    margin-bottom: 25px;
+    justify-content: center;
+    margin-left: 25px;
     
 }
 .box:hover{
