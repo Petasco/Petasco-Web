@@ -229,7 +229,8 @@ p{
     padding-top: 70px;
 }
 .contact-img{
-    background-image: url('../Photos/contact-bg.jpg');
+    /* background-image: url('../Photos/contact-bg.jpg'); -*/
+    background-image: url('../../images/contact-bg.jpg');
     padding: 5px
 }
 .contact-heading{
