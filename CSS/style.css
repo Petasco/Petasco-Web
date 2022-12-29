@@ -311,7 +311,11 @@ p{
     margin-top: 1rem;
     font-family: var(--Cormorant);
 }
-
+.donate-btn{
+    height: 60px;
+    width: 350px;
+   
+}
 .btn:hover{
     background-color:rgb(64, 225, 222);
     color: #040404;
@@ -763,6 +767,12 @@ Lucida Console, Lucida fax, Lucida sans */
     .nav .nav-item .nav-link{
         padding: 0.2rem;
     }
+    .donate-btn{
+        height: 45px;
+        width: 250px;
+        font-size: 30px;
+    }
+    
     main .site-content{
         grid-template-columns: 100%;
     }
