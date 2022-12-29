@@ -277,8 +277,8 @@ p{
 /* ~~~~~~~~~~~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* /////////////////// site title \\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .site-title{
-    /* background: url(../../Photos/world.jpg);*/
     background: url('../Photos/world.jpg');
+    opacity: 0.8;
     background-size: cover;
     height: 120vh;
     display: flex;
@@ -881,5 +881,6 @@ Lucida Console, Lucida fax, Lucida sans */
 @media only screen and (max-width: 330px){
     .site-title h1{
         font-size: 3.0rem;
+        
     }
 }
