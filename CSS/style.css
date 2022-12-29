@@ -671,61 +671,11 @@ Lucida Console, Lucida fax, Lucida sans */
     cursor: pointer;
 }
 /* ==============xxx============== Footer ==================xxx================*/
-
-/* -------------------- viewport <= 520px ------------------*/
-@media only screen and (max-width: 520px){
-    main .blog{
-        height: 125vh;
-    }
-    .post-image .post-info{
+@media only screen and (max-width: 1300px){
+    .search-container{
         display: none;
-
-    }
-    .footer .container > div{
-        padding: 1rem 0.9rem !important;
-    }
-    .footer .copy-right{
-        padding: 0rem 1.2rem;
-    }
-    nav .toggle-collapse{
-        width: 90% !important;
- 
-    }
-    .nav{
-        overflow: hidden;
     }
 }
-
-/* -------------------- viewport <= 750px ------------------*/
-@media only screen and (max-width: 750px){
-    .nav .nav-menu,.nav .nav-item{
-        flex-direction: column;
-    }
-    .nav{
-        background-color:  #dad1d1;
-    }
-    .nav .toggle-collapse{
-        display: initial;
-    }
-    .nav .toggle-collapse:hover{
-        color: red;
-    }
-    .nav .nav-item .nav-link{
-        padding: 0.2rem;
-    }
-    main .site-content{
-        grid-template-columns: 100%;
-    }
-    main .post-info{
-        left: 2rem !important;
-        bottom: 1.2rem !important;
-
-    }
-    .footer .container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 
 /* -------------------- viewport <= 1130px ------------------*/
 @media only screen and (max-width: 1130px){
@@ -745,7 +695,7 @@ Lucida Console, Lucida fax, Lucida sans */
 /* ----------- xx --------- viewport <= 1130px ---------- xx --------*/
 
 
-/* -------------------- viewport <= 750px ------------------*/
+/* -------------------- viewport <= 1000px ------------------*/
 @media only screen and (max-width: 1000px){
 
     main .post-info{
@@ -773,9 +723,9 @@ Lucida Console, Lucida fax, Lucida sans */
         font-size: 30px;
     }
     
-    main .site-content{
+    /*main .site-content{
         grid-template-columns: 100%;
-    }
+    }*/
     main .post-info{
         left: 2rem !important;
         bottom: 1.2rem !important;
@@ -861,8 +811,66 @@ Lucida Console, Lucida fax, Lucida sans */
 
 }
 
-@media only screen and (max-width: 1300px){
-    .search-container{
-        display: none;
+/* -------------------- viewport <= 750px ------------------*/
+@media only screen and (max-width: 750px){
+    .nav .nav-menu,.nav .nav-item{
+        flex-direction: column;
+    }
+    .nav{
+        background-color:  #dad1d1;
+    }
+    .nav .toggle-collapse{
+        display: initial;
+    }
+    .nav .toggle-collapse:hover{
+        color: red;
+    }
+    .nav .nav-item .nav-link{
+        padding: 0.2rem;
+    }
+    main .site-content{
+        grid-template-columns: 100%;
+    }
+    
+    main .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+
+    }
+    .footer .container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* -------------------- viewport <= 520px ------------------*/
+@media only screen and (max-width: 520px){
+    main .blog{
+        height: 125vh;
+    }
+    .post-image .post-info{
+        display: none;
+
+    }
+    .footer .container > div{
+        padding: 1rem 0.9rem !important;
+    }
+    .footer .copy-right{
+        padding: 0rem 1.2rem;
+    }
+    nav .toggle-collapse{
+        width: 90% !important;
+ 
+    }
+    .nav{
+        overflow: hidden;
+    }
+}
+/* =========xxxxxxxxxxxxxxx======= viewport <= 520px =======xxxxxxxxxx==================*/
+
+/* ================ viewport <= 390px ===================================*/
+@media only screen and (max-width: 390px){
+    .popular-post .post-image{
+        
+    }
+}
+/* =======xxxxxxxxxxxxxx========= viewport <= 350px ==xxxxxxxxxxxx=================*/
