@@ -844,6 +844,9 @@ Lucida Console, Lucida fax, Lucida sans */
 
 /* -------------------- viewport <= 520px ------------------*/
 @media only screen and (max-width: 520px){
+    .site-bg{
+        padding-top: 100px;
+    }
     main .blog{
         height: 125vh;
     }
@@ -870,7 +873,13 @@ Lucida Console, Lucida fax, Lucida sans */
 /* ================ viewport <= 390px ===================================*/
 @media only screen and (max-width: 390px){
     .popular-post .post-image{
-        
+        width: 50%;
     }
 }
 /* =======xxxxxxxxxxxxxx========= viewport <= 350px ==xxxxxxxxxxxx=================*/
+
+@media only screen and (max-width: 330px){
+    .site-title h1{
+        font-size: 3.0rem;
+    }
+}
