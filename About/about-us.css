@@ -22,6 +22,10 @@
     padding-left: 20px;
     box-shadow: 0 0 25px 0 #0f0f0f;
 }
+.about-us-text p{
+    justify-content: center;
+    margin-right: 20px;
+}
 .About-Us .about-us-container{
     width: 100%;
     max-width: 80%;
