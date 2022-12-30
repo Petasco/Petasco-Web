@@ -180,7 +180,7 @@
     .about-us-text{
         width: 500px;
         background-color: aqua;
-       
+       justify-content: center;
     }
     .About-Us .about-us-text:hover{
         transform: scale(1.0);
