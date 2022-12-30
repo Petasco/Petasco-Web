@@ -57,7 +57,7 @@
 }
 
 
-/* ====================================================== services ===============xxxxxxxxxxxxxxxxxxx===================*/
+/* ==================== services =======xxxxxxxxxxx==============*/
 .services-container{
     width: 100vw;
     background: #c8e8e0;
@@ -159,6 +159,9 @@
 }
 
 @media only screen and (max-width:900px){
+    .About-Us{
+        align-items: center;
+    }
     .About-Us .about-us-container{
         width: 1200px;
         max-width: 80%;
@@ -178,6 +181,11 @@
         width: 500px;
         background-color: aqua;
        
+    }
+    .About-Us .about-us-text:hover{
+        transform: scale(1.0);
+        transition: all 1s ease;
+        background: aliceblue;
     }
     .about-us-btns button{
         display: inline-block;

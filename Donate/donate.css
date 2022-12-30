@@ -1,6 +1,7 @@
 
 
 .marquee-text{
+    margin-top: 0;
     color:rgb(21, 14, 224);
 }
 
@@ -10,6 +11,8 @@
 }
 
 .text{
+    padding-top: 0%;
+    margin-top: -22px;
     background: url('../images/960x0.jpg');
     align-items: center;
     justify-content: center;
@@ -20,15 +23,13 @@
     text-align: center;
 }
 .text p{
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
     text-align: center;
     background-color: rgba(103, 101, 101, 0.53);
     padding-top: -50px;
     
 }
-
-
 
 .title{
     text-align: center;
@@ -53,7 +54,8 @@
     text-align: center;
 }
 .donation-box{
-    width: 100%;
+    width: 350px;
+    height: 380px;
     display: flex;
     background-color: aqua;
     justify-content: center;
@@ -84,7 +86,9 @@
 .donation-box h2{
     padding-bottom: 0;
 }
-
+.address{
+    font-size: 15px;
+}
 /* ======================================== media query =================================================== */
  @media screen and (max-width:1130px){
     .donations{
@@ -92,7 +96,7 @@
         flex-direction: column;
     }
     .donation-box{
-        width: 90%;
+        width: 300px;
         display: flex;
         margin: 20px 0;
     }
