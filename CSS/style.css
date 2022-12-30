@@ -849,6 +849,7 @@ main .header-img img{
         bottom: 1.2rem !important;
 
     }
+    
     .footer .container{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -865,6 +866,15 @@ main .header-img img{
     .post-image .post-info{
         display: none;
 
+    }
+    .post-title h1{
+        font-size: 20px;
+    }
+    .post-title h2{
+        font-size: 17px;
+    }
+    .post-title p {
+        font-size: 12px;
     }
     .footer .container > div{
         padding: 1rem 0.9rem !important;
