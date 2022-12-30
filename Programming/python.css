@@ -7,9 +7,10 @@ main .header-img img{
     width: 100%;
     height: 350px;
 }
-li{
-    font-size: 11px;
+.para ul p{
+    font-size: 8px;
 }
+
 li b{
     font-size: 14px;
 }
