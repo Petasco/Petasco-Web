@@ -868,16 +868,16 @@ main .header-img img{
 
     }
     .post-title h1{
-        font-size: 20px;
+        font-size: 18px;
     }
     .post-title h2{
-        font-size: 17px;
+        font-size: 14px;
     }
     .post-title p {
         font-size: 12px;
     }
     .post-title p ul li{
-        font-size: 12px;
+        font-size: 11px;
     }
     .footer .container > div{
         padding: 1rem 0.9rem !important;
