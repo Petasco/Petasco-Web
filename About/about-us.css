@@ -3,7 +3,7 @@
 .About-Us{
     width: 100%;
     padding: 10px;
-    padding-top: 70px !important;
+    padding-top: 50px !important;
     background: url('../Photos/world.jpg');
     justify-content: space-around;
 }
@@ -19,7 +19,7 @@
 .about-us-text{
     width: 100%;
     background-color: aqua;
-    padding-left: 20px;
+    padding-left: 10px;
     box-shadow: 0 0 25px 0 #0f0f0f;
 }
 
@@ -149,9 +149,9 @@
        
     }
     .about-us-text{
-        width: 850px;
+        
         background-color: aqua;
-       
+        
     }
     .about-us-btns button{
         display: inline-block;
@@ -182,7 +182,7 @@
        
     }
     .about-us-text{
-        width: 500px;
+        
         background-color: aqua;
        justify-content: center;
     }
@@ -212,9 +212,7 @@
 }
 
 @media only screen and (max-width:720px){
-    .about-us-text{
-        width: 400px;
-    }
+    
 }
 @media only screen and (max-width:520px){
     .About-Us .about-us-container{
@@ -233,7 +231,7 @@
        
     }
     .about-us-text{
-        width: 300px;
+        
         background-color: aqua;
        
     }
