@@ -646,12 +646,18 @@ main .header-img img{
     outline-color: #18daca;
 }
 .newsletta .form-element .newsletta-btn {
-    width: 8rem;
+    width: 10rem;
+    font-size: 1.3rem;
+    font-family: Arial Bold;
+    height: 1.8rem;
     margin-top: 0.5rem;
     margin-left: 3rem;
     border-radius: 0.5rem;
     background-color: #da4218;
     border-color: #e1240f;
+}
+.newsletta .form-element .newsletta-btn:hover{
+    background-color: #18daca;
 }
 .newsletta .form-element span{
     background-color: #0f0f0f;
