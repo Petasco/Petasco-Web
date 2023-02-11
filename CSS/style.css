@@ -653,11 +653,12 @@ main .header-img img{
     margin-top: 0.5rem;
     margin-left: 3rem;
     border-radius: 0.5rem;
-    background-color: #da4218;
-    border-color: #e1240f;
+    background-color: #25b7b7;
+    border-color: #25b7b7;
 }
 .newsletta .form-element .newsletta-btn:hover{
-    background-color: #18daca;
+    background-color: rgb(242, 12, 12);
+    border: rgb(242, 12, 12);
 }
 .newsletta .form-element span{
     background-color: #0f0f0f;
