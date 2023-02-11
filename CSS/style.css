@@ -634,15 +634,24 @@ main .header-img img{
     padding: 2rem 0.8rem;
 }
 .newsletta .form-element{
-    background-color: #18daca;
+    /*background-color: #18daca;*/
     display: inline-block;
 }
 .newsletta .form-element input{
     padding: 0.5rem 0rem;
     border: none;
-    background: transparent;
-    width: 80%;
+    /*background: transparent;*/
+    background-color: #18daca;
+    width: 100%;
     outline-color: #18daca;
+}
+.newsletta .form-element .newsletta-btn {
+    width: 8rem;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    border-radius: 0.5rem;
+    background-color: #da4218;
+    border-color: #e1240f;
 }
 .newsletta .form-element span{
     background-color: #0f0f0f;
