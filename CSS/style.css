@@ -871,7 +871,7 @@ main .header-img img{
         grid-template-columns: repeat(1, 1fr);
     }
     .popular-post .post-content .post-image .thumbtail{
-        margin-right: 2rem;
+        margin-right: 2.5rem;
     }
 
 }
