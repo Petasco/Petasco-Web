@@ -6,6 +6,7 @@
     padding-top: 50px !important;
     background: url('../Photos/world.jpg');
     justify-content: space-around;
+   
 }
 .About-Us .about-us-container img{
     height: auto;
@@ -21,6 +22,7 @@
     background-color: aqua;
     padding-left: 10px;
     box-shadow: 0 0 25px 0 #0f0f0f;
+    margin-left: 1.5rem;
 }
 
 .About-Us .about-us-container{
