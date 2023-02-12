@@ -873,6 +873,9 @@ main .header-img img{
     .popular-post .post-content .post-image .thumbtail{
         margin-right: 2.5rem;
     }
+    .post-image .recent-post-image .thumbtail .thumbtail{
+        margin-right: 2.5rem;
+    }
 
 }
 
