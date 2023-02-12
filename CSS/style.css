@@ -505,6 +505,7 @@ Lucida Console, Lucida fax, Lucida sans */
     
 }
 
+
 /* ~~~~~~~~~~~~~~~~~~~ Recent Posts ~~~~~~~~~~~ XXXXXXXX ~~~~~~~~~~~~~*/
 
 
@@ -869,6 +870,10 @@ main .header-img img{
     .footer .container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .popular-post .post-content .post-image .thumbtail{
+        margin-right: 2rem;
+    }
+
 }
 
 /* -------------------- viewport <= 520px ------------------*/
