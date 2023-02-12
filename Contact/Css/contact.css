@@ -248,7 +248,7 @@ p{
     box-shadow: #000;
 }
 .contact-info:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
     transition: all 1s ease;
 
 }
