@@ -542,7 +542,7 @@ Lucida Console, Lucida fax, Lucida sans */
     left: 50%;
     transform: translate(-50%,-110%);
     padding: 1.325rem!important;
-    width: 80%;
+    width: 60%;
     height: 100px;
     max-width: 100%;
     text-align: center;
@@ -550,7 +550,7 @@ Lucida Console, Lucida fax, Lucida sans */
 }
 .recent-post .post-image .post-title a{
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(250, 251, 255, 0.989);
     background-color: rgba(0, 0, 0, 0.497);
@@ -873,7 +873,7 @@ main .header-img img{
     .popular-post .post-content .post-image .thumbtail{
         margin-right: 2.5rem;
     }
-    .post-image .recent-post-image .thumbtail .thumbtail{
+    .recent-thumbtail{
         margin-right: 2.5rem;
     }
 
