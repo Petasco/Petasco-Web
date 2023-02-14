@@ -321,7 +321,9 @@ p{
     color: #040404;
 }
 .list li{
-    font-size: 1.0rem;
+    font-size: 1.2rem;
+    color: #0fd6e8;
+    font-weight: 600;
 }
 /* /////// xxx ///// site title \\\\\\\\\ xxx \\\\\\\\\*/
 /* ~~~~~~~~~~~~~~~~~~~~~~ Blog Carousel ~~~~~~~~~~~~~~~~~~~*/
