@@ -320,6 +320,9 @@ p{
     background-color:rgb(64, 225, 222);
     color: #040404;
 }
+.list li{
+    font-size: 0.8rem;
+}
 /* /////// xxx ///// site title \\\\\\\\\ xxx \\\\\\\\\*/
 /* ~~~~~~~~~~~~~~~~~~~~~~ Blog Carousel ~~~~~~~~~~~~~~~~~~~*/
 main .blog{
