@@ -343,6 +343,7 @@ main .blog-post .blog-content{
     box-shadow: #fff;
     background-color: aliceblue;
     padding-bottom: 2rem;
+    height: 30rem;
 }
 main .blog-content .blog-title{
     padding: 2rem 0;
