@@ -409,11 +409,11 @@ main .post-img{
 }
 main .post-info{
 background: skyblue;
-padding: 1rem;
+padding: 0.2rem;
 position: absolute;
 bottom: 0%;
 left: 20vh;
-border-radius: 3rem;
+border-radius: 5rem;
 }
 .post-image > div{
     overflow: hidden;
