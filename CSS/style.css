@@ -494,6 +494,7 @@ Lucida Console, Lucida fax, Lucida sans */
 .popular-post .post-content{
     padding: 1rem 0;
     margin-bottom: 0;
+    margin-top: -10%;
     
 }
 .popular-post h2{
@@ -508,10 +509,16 @@ Lucida Console, Lucida fax, Lucida sans */
     border-radius: 0rem !important;
     background: rgb(255, 255, 255);
 }
+.popular-post .post-image .thumbtail{
+    width: 80%;
+}
+.popular-post .post-title{
+    margin-top: -8%;
+}
 .popular-post .post-title a{
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 0rem;
+    padding-top: -5rem;
     
 }
 
