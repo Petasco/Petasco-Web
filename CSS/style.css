@@ -521,13 +521,10 @@ Lucida Console, Lucida fax, Lucida sans */
     font-size: 0.8rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: -5rem;
-    
 }
 
 
-/* ~~~~~~~~~~~~~~~~~~~ Recent Posts ~~~~~~~~~~~ XXXXXXXX ~~~~~~~~~~~~~*/
-
-
+/* ~~~~~~~~~~~~~~~~~~~ Recent Posts ~~~~~~~~~~~~~~~~~~~~~~~~*/
 .recent-post .post-content{
     padding: 0rem 0;
     
@@ -539,45 +536,51 @@ Lucida Console, Lucida fax, Lucida sans */
     display: flex;
     opacity: -1.5rem;
 }
-
-
 .recent-post .post-info{
-    padding: 0.2rem 0rem !important;
+    padding: 0rem 0rem !important;
     bottom: 10% !important;
     left: 10% !important;
-    border-radius: 0.8rem !important;
-    background: #dad1d1;
+    border-radius: 1.8rem !important;
+    background: #0fd6e8;
 }
 .recent-post-image .post-img:hover{
     transform: scale(1.2);
     transition: all 1s ease;
-    transform: scale(1.4) !important;
+    transform: scale(1.2) !important;
 }
 
 .recent-post .post-image .post-title{
     position: absolute;
-    top: 75%;
-    left: 50%;
+    top: 110%;
+    left: 45%;
     transform: translate(-50%,-110%);
     padding: 1.325rem!important;
-    width: 60%;
+    width: 75%;
     height: 100px;
     max-width: 100%;
     text-align: center;
     
 }
+.header{
+    align-items: baseline;
+    display: flex;
+    top: 30%;
+    left: 5%;
+}
 .recent-post .post-image .post-title a{
-    padding: 1rem;
-    font-size: 1.0rem;
+    padding: 0rem;
+    font-size: 0.8rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(250, 251, 255, 0.989);
     background-color: rgba(0, 0, 0, 0.497);
     padding-top: 0rem;
     position: relative;
-    opacity: -30rem;
-    /*background: transparent;*/
+    opacity: -30rem; 
 }
-/* =============================Recent Posts ================== xxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.recent-post-category{
+    font-size: 0.7rem;
+}
+/* ===========xxxx==========Recent Posts ================== xxxx==================*/
 /* ~~~~~~~~~~~~~~~~~~~ Newsletter ~~~~~~~~~~XXX~~~~~~~~*/
 .form-element{
     padding: 0.5rem 2rem;
@@ -605,7 +608,7 @@ Lucida Console, Lucida fax, Lucida sans */
     border: #18daca;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~ Popular Tags ~~~~~~~~~~XXX~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~ Popular Tags ~~~~~~~~~~xxx~~~~~~~~*/
 .popular-tags{
     padding: 5rem 0rem;
 }
@@ -621,7 +624,7 @@ Lucida Console, Lucida fax, Lucida sans */
     padding-top: 50px;
 }
 
-/* ||||||||||||| xx ||||||||| Side bar  |||||||||||||||| xx ||||||||||||||||*/
+/* ======================xxxxxxxxxxxxxxxxxxx=========== Side bar ========xxxxxxxxxxxxxxxxxx================*/
 
 /* ~~~~~~~~~~xx~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~xx~~~~~~~~~~*/
 
@@ -718,6 +721,8 @@ main .header-img img{
     cursor: pointer;
 }
 /* ==============xxx============== Footer ==================xxx================*/
+
+/*===================================================== media query ====================================================*/
 @media only screen and (max-width: 1300px){
     .search-container{
         display: none;
@@ -893,6 +898,11 @@ main .header-img img{
     }
     .recent-thumbtail{
         margin-right: 2.5rem;
+    }
+    .recent-post .post-image .post-title{
+        top: 120%;
+        left: 45%;
+        
     }
 
 }
