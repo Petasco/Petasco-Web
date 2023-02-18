@@ -566,7 +566,7 @@ Lucida Console, Lucida fax, Lucida sans */
     display: flex;
     top: 28%;
     left: 2%;
-    right: 15%;
+    right: 5%;
 }
 .recent-post .post-image .post-title a{
     padding: 0rem;
@@ -904,6 +904,9 @@ main .header-img img{
         top: 120%;
         left: 45%;
         
+    }
+    .header{
+        right: 15%;
     }
 
 }
