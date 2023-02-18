@@ -564,9 +564,9 @@ Lucida Console, Lucida fax, Lucida sans */
 .header{
     align-items: baseline;
     display: flex;
-    top: 30%;
+    top: 28%;
     left: 2%;
-    right: 10%;
+    right: 15%;
 }
 .recent-post .post-image .post-title a{
     padding: 0rem;
