@@ -783,11 +783,7 @@ main .header-img img{
     /*main .site-content{
         grid-template-columns: 100%;
     }*/
-    main .post-info{
-        left: 2rem !important;
-        bottom: 1.2rem !important;
-
-    }
+    
     .footer .container{
         grid-template-columns: repeat(1, 1fr);
     }
