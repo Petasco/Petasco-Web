@@ -408,12 +408,14 @@ main .post-img{
     transition: all 1s ease;
 }
 main .post-info{
-background: #18daca;
+/* background: #18daca; */
+background: aqua;
 padding: 0.2rem;
 position: absolute;
 bottom: 0%;
 left: 20vh;
 border-radius: 5rem;
+left: 35%;
 justify-content: center;
 }
 
@@ -421,7 +423,7 @@ justify-content: center;
     overflow: hidden;
 }
 main .site-content .post-content > .post-image .post-img:hover{
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 .post-info span{
    margin: 0.5rem; 
@@ -435,7 +437,7 @@ main .site-content .post-content > .post-image .post-img:hover{
 main .site-content .post-content .post-title .blog-btn{
     font-size: 1.2rem;
     padding: 0.7rem 1.4rem;
-    background-color: #18daca;
+    background-color: aqua;
 }
 .blog-btn-div{
     display: flex;
@@ -473,7 +475,7 @@ Lucida Console, Lucida fax, Lucida sans */
     font-family: Consolas ;
 }
 .list-items{
-    background-color: #18daca;
+    background-color: aqua;
     padding: 0.4rem 1rem;
     margin: 0.8rem 0;
     border-radius: 3rem;
@@ -614,7 +616,7 @@ a .header{
     padding: 5rem 0rem;
 }
 .popular-tags .tags .tag{
-    background-color: #18daca;
+    background-color: aqua;
     padding: 0.4rem 1rem;
     border-radius: 3rem;
     margin: 0.4rem 0.6rem;
@@ -731,7 +733,7 @@ main .header-img img{
     }
 }
 
-/* -------------------- viewport <= 1130px ------------------*/
+/* ============================ viewport <= 1130px ============================*/
 @media only screen and (max-width: 1130px){
     main .post-info{
         left: 2rem !important;
@@ -746,10 +748,10 @@ main .header-img img{
     }
 }
 
-/* ----------- xx --------- viewport <= 1130px ---------- xx --------*/
+/* =============xxx=============== viewport <= 1130px ==============xx==============*/
 
 
-/* -------------------- viewport <= 1000px ------------------*/
+/* ============================ viewport <= 1000px ============================*/
 @media only screen and (max-width: 1000px){
 
     main .post-info{
@@ -810,14 +812,14 @@ main .header-img img{
         font-family: var(--Cormorant);
     }
     
-    /* ----------- x --------- menu --------- x ---------*/
+    /* =============xxx=============== menu =============xxx===============*/
     .nav .nav-item .nav-link{
     padding: 0.2rem 0.2rem;
     font-size: 0.8rem;
     text-align: left;
     border: 2px solid aqua;
     }
-    /* -------------------- social media styling ------------------*/
+    /* ============================ social media styling ============================*/
     .nav .social{
         padding: 1.5rem 0;
     }
@@ -865,7 +867,7 @@ main .header-img img{
 
 }
 
-/* -------------------- viewport <= 750px ------------------*/
+/* ============================viewport <= 750px ============================*/
 @media only screen and (max-width: 750px){
     .nav .nav-menu,.nav .nav-item{
         flex-direction: column;
@@ -916,7 +918,7 @@ main .header-img img{
 
 }
 
-/* -------------------- viewport <= 520px ------------------*/
+/* ============================ viewport <= 520px ============================*/
 @media only screen and (max-width: 520px){
     .site-bg{
         padding-top: 100px;
