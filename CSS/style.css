@@ -413,7 +413,7 @@ background: aqua;
 padding: 0.2rem;
 position: absolute;
 bottom: 0%;
-left: 35vh;
+left: 45vh;
 border-radius: 5rem;
 justify-content: center;
 }
@@ -468,7 +468,7 @@ main .site-content .post-content .post-title .blog-btn{
 }
 /* ~~~~~~~XXX~~~~~~~ Site Content ~~~~~~~~XXX~~~~~~~*/
 
-/* |||||||||||||||||||||||||||||||| Side bar  |||||||||||||||||||||||||||||*/
+/* ================================================================= Side bar  ================================================================*/
 /* ----------- -------- Category  ---------- --------*/
 /*Bodoni MT, Cambria , Consolas , Leeelawadee UI , Lucidabright ,
 Lucida Console, Lucida fax, Lucida sans */
@@ -493,7 +493,7 @@ Lucida Console, Lucida fax, Lucida sans */
 .list-items a{
     color: #040404;
 }
-/* ----------- xx ---------  Category ------- xx ------*/
+/* ==============xxx==============  Category ===========xxx=================*/
 
 /* ~~~~~~~~~~~~~~~~~~~ Popular Post ~~~~~~~~~~XXX~~~~~~~~*/
 .popular-post .post-content{
@@ -629,12 +629,9 @@ a .header{
     padding-top: 50px;
 }
 
-/* ======================xxxxxxxxxxxxxxxxxxx=========== Side bar ========xxxxxxxxxxxxxxxxxx================*/
+/* ================================================xxxxxxxxxxxxxxxxxxx=========== Side bar ========xxxxxxxxxxxxxxxxxx======================*/
 
 /* ~~~~~~~~~~xx~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~xx~~~~~~~~~~*/
-
-
-
 .article-img{
     height: auto;
     width: 300px;
