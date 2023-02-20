@@ -417,9 +417,9 @@ left: 45vh;
 border-radius: 5rem;
 justify-content: center;
 }
-.main-post-info{
+/* .main-post-info{
     display: inline-block;
-}
+} */
 .post-image > div{
     overflow: hidden;
 }
