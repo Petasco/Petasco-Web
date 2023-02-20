@@ -561,11 +561,11 @@ Lucida Console, Lucida fax, Lucida sans */
     text-align: center;
     
 }
-.header{
+a .header{
     align-items: baseline;
     display: flex;
     top: 28%;
-    left: 1%;
+    left: 0%;
     right: 5%;
 }
 .recent-post .post-image .post-title a{
