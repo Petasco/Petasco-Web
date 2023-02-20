@@ -905,9 +905,12 @@ main .header-img img{
         left: 45%;
         
     }
-    .header{
-        right: 15%;
-        margin-right: 5rem;
+    a .header{
+        align-items: baseline;
+        display: flex;
+        top: 28%;
+        left: 2%;
+        right: 5%;
     }
 
 }
