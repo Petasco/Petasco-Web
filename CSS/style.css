@@ -909,6 +909,9 @@ main .header-img img{
         left: 5%;
         right: 5%;
     }
+    .copy-right-txt{
+        font-size: 0.6rem;
+    }
 
 }
 
@@ -949,6 +952,7 @@ main .header-img img{
     .nav{
         overflow: hidden;
     }
+
 }
 /* =========xxxxxxxxxxxxxxx======= viewport <= 520px =======xxxxxxxxxx==================*/
 
