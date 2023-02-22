@@ -713,6 +713,9 @@ main .header-img img{
 .contract{
     padding: 0.1rem 1.8rem;
 }
+.user-agreement{
+    display: inline !important
+}
 .footer .move-up{
     position: absolute;
     right: 6%;
