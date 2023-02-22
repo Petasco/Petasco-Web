@@ -909,10 +909,12 @@ main .header-img img{
         left: 5%;
         right: 5%;
     }
-    .copy-right-txt{
+    .text-gray{
         font-size: 0.9rem;
     }
-
+    .contract{
+        font-size: 1.0rem;
+    }
 }
 
 /* ============================ viewport <= 520px ============================*/
