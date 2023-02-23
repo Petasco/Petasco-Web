@@ -2,7 +2,8 @@
 
 .marquee-text{
     margin-top: 0;
-    color:rgb(21, 14, 224);
+    /* color:rgb(21, 14, 224); */
+    color: rgb(5, 5, 5);
 }
 
 .donate-section{
