@@ -64,7 +64,8 @@
     align-items: center;
     flex-direction: column;
     margin: 0 20px;
-    padding: 20px 8px;
+    /*padding: 20px 8px;*/
+    padding: 0.8rem;
     box-shadow: 0 0 25px 0 #0f0f0f;
 }
 .donation-box .icon{
@@ -90,14 +91,18 @@
 .address{
     font-size: 15px;
 }
+.wallet-address{
+    color: #000;
+    font-size: 1.2rem;
+}
 /*.copy-text{
     position: relative;
     padding: 10px;
     background: #0f0f0f;
     border: 1px solid #000000;
     border-radius: 10px;
-    display: flex;
-}
+   
+}/*
 .copy-text input.text{
     padding: 5px;
     font-size: 13px;
@@ -105,11 +110,27 @@
     border: none;
     outline: none;
 }*/
-.copy-text{
+
+/*.copy-text{
     background: aqua;
     color: #fff;
 }
-.copy-text button{
+.copy-btn{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 10px;
+    background: rgb(12, 12, 12);
+    color: aqua;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 35px;
+}
+
+/*.fa-clone{
     padding: 10px;
     background: rgb(12, 12, 12);
     color: aqua;
@@ -118,7 +139,6 @@
     outline: none;
     border-radius: 10px;
     cursor: pointer;
- 
 }
 .copy-text button:active{
     background: rgb(240, 6, 6);
@@ -131,26 +151,61 @@
     background: rgb(12, 12, 12);
     padding: 8px 10px;
     border-radius: 20px;
-    font-size: 13px;
-    display: none;
-    
-    
+    font-size: 13px;   
 }
 .copy-text button:after{
     content: "";
-    position: relative;
+    position: absolute;
     top: -20px;
-    right: 25px;
+    right: 0px;
     width: 10px;
     height: 10px;
-    background: red;
+    background: rgb(12, 12, 12);
     transform: rotate(45deg);
-    display: none;
+    
 }
 .copy-text.active button:before,
 .copy-text.active button:after{
     display: block;
+} */
+
+.copy-btn{
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    border-radius: 0.5rem;
+    cursor: pointer;
 }
+.copy-btn:active{
+    background: red;
+}
+.copy-text .text{
+    color: #fff;
+    font-size: 1.0rem;
+}
+.copy-text button:before{
+    content: "Copied";
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    background: rgb(244, 218, 218);
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 13px;   
+}
+/*.copy-text button:after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    background: rgb(12, 12, 12);
+    transform: rotate(45deg);
+    
+}*/
 /* ======================================== media query =================================================== */
  @media screen and (max-width:1130px){
     .donations{
