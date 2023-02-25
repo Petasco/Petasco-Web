@@ -47,3 +47,31 @@ AOS.init();
 
 
 }); 
+
+var popupTimer;
+function delayPopup(popup){
+    popupTimer = setTimeout(function() {
+        $(popup).popup('hide') }, 4200);
+}
+
+$(document).ready(function () {
+    $('.copyToken').click(function (){
+        clearTimeout(popupTimer);
+
+        var $input = $(this).closest('div').find('.copyInput');
+
+        $input.select();
+
+        document.execCommand("copy");
+
+        $(this).popup({
+            title: 'Copied Successfully',
+            content: 'Share this link with your sender',
+            on: 'manual',
+            exclusive: true
+        })
+        .popup('show');
+
+        delayPopup(this);
+    });
+});
