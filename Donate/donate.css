@@ -90,6 +90,67 @@
 .address{
     font-size: 15px;
 }
+/*.copy-text{
+    position: relative;
+    padding: 10px;
+    background: #0f0f0f;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+}
+.copy-text input.text{
+    padding: 5px;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    outline: none;
+}*/
+.copy-text{
+    background: aqua;
+    color: #fff;
+}
+.copy-text button{
+    padding: 10px;
+    background: rgb(12, 12, 12);
+    color: aqua;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+ 
+}
+.copy-text button:active{
+    background: rgb(240, 6, 6);
+}
+.copy-text button:before{
+    content: "Copied";
+    position: relative;
+    top: -50px;
+    right: 0px;
+    background: rgb(12, 12, 12);
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: none;
+    
+    
+}
+.copy-text button:after{
+    content: "";
+    position: relative;
+    top: -20px;
+    right: 25px;
+    width: 10px;
+    height: 10px;
+    background: red;
+    transform: rotate(45deg);
+    display: none;
+}
+.copy-text.active button:before,
+.copy-text.active button:after{
+    display: block;
+}
 /* ======================================== media query =================================================== */
  @media screen and (max-width:1130px){
     .donations{
