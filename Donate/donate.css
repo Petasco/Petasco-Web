@@ -182,8 +182,16 @@
     background: red;
 }
 .copy-text .text{
-    color: #fff;
+    color: #000000;
     font-size: 1.0rem;
+}
+.copy-text input{
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    /*pointer-events: none;*/
 }
 .copy-text button:before{
     content: "Copied";
