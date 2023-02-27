@@ -48,6 +48,31 @@ AOS.init();
 
 }); 
 
+// =========================copy to clickboard ===============
+const copyText = document.querySelectorAll(".copy-text");
+let copyTxt = document.querySelectorAll(".copy-text");
+for (const copyTxt of copyText) {
+    
+    copyTxt.querySelector("button").addEventListener("click", function(){
+        let input = copyTxt.querySelector("input.text");
+        input.select();
+    
+    
+        navigator.clipboard.writeText(input.value)
+        .then(() => {"Copied"});
+    
+        //document.execCommand("copy");
+        copyTxt.classList.add("active");
+        window.getSelection().removeAllRanges();
+        setTimeout(function(){
+            copyTxt.classList.remove("active");
+        }, 500);
+    });
+
+
+}
+
+/*
 var popupTimer;
 function delayPopup(popup){
     popupTimer = setTimeout(function() {
@@ -75,3 +100,5 @@ $(document).ready(function () {
         delayPopup(this);
     });
 });
+
+*/
