@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <style type="text/css">
+     	*{
+     		box-sizing: border-box;
+     	}
+     	body{
+     		margin: 0;
+     		height: 100vh;
+     		width: 100vw;
+     		overflow: hidden;
+     		font-family: "Lato",sans-serif;
+     		font-weight: 700;
+     		display: flex;
+     		align-items: center;
+     		justify-content: center;
+     		color: #555;
+     		/* background-color: #ecf0f3;*/
+			background-color: aqua;
+     	}
+     	.login-div{
+     		width: 430px;
+     		height: 700px;
+     		padding: 15px 35px 35px 35px;
+     		border-radius: 40px;
+     		background-color: #ecf0f3;
+     		box-shadow: 13px 13px 20px #cbced1,
+     		-13px -13px 20px #fff;
+     	}
+     	.logo{
+
+     		background: url(./Logo/petascologo.jpg);
+     		background-size: cover;
+     		 width: 100px;
+     		 height: 100px;
+     		 border-radius: 70%;
+     		 margin: 0 auto;
+     		 box-shadow: 8px 8px 15px #a7aaaf     		 -8px -8px 20px #fff;
+			
+     	}
+     	.title{
+     		text-align: center;
+     		font-size: 30px;
+     		padding-top: 7px;
+     		letter-spacing: 0.1px;
+     	}
+     	.sub-title{
+     		text-align: center;
+     		font-size:  20px;
+     		padding-top: 7px;
+     		letter-spacing: 5px;
+     		font-family: algerian;
+     	}
+     	.nname{
+     		text-align: center;
+     		font-size: 15px;
+     		padding-top: 1px;
+     		letter-spacing: 5px;
+     	}
+     	.form{
+     		width: 100%;
+     		padding: 30px 5px 5px 5px;
+     	}
+     	.form input{
+     		border: none;
+     		outline: none;
+     		background: none;
+     		font-size: 18px;
+     		color: #555;
+     		padding: 10px 10px 10px 5px;
+     	}
+     	.username,.password{
+     		margin-bottom: 30px;
+     		border-radius: 20px;
+     		box-shadow: inset 8px 8px 8px #cbced1, inset
+     		-8px -8px 8px #fff;
+     	}
+     	.signin-button{
+     		outline: none;
+     		border: none;
+     		cursor: pointer;
+     		width: 100%;
+     		height: 40px;
+     		border-radius: 30px;
+     		font-size: 20px;
+     		font-weight: 700;
+     		font-family: "Lato",sans-serif;
+     		color: #fff;
+     		text-align: center;
+     		background-color: #02c8db;
+     		box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 8px #fff;
+     		transition: all 0.5s;
+     	}
+     	.signin-button:hover {
+              background-color: #50e5b9;
+     	}
+     	.signin-button:active{
+     		background-color: #88ef9e;
+     	}
+     	h3{
+     		padding-top: 40px;
+     		text-align: center;
+     		color: black;
+     	}
+     	p{
+     		padding-top: 20px;
+     		text-align: right;
+     		color: black;
+     	}
+
+     </style>
+
+	<title>Sign Up</title>
+</head>
+<body>
+
+	<div class="login-div">
+		<div class="logo"></div>
+		<div class="title">DIYOUH TOSAY PETER</div>
+		<div class="nname">aka</div>
+		<div class="sub-title">Petasco</div>
+		<div class="form">
+			<div class="username">
+				<input type="text" class="user-input" placeholder="Username">
+			</div>
+			<div class="username">
+				<input type="text" class="user-input" placeholder="Email">
+			</div>
+			<div class="password">
+				<input type="password" class="password-input" placeholder="Password">
+			</div>
+			<div class="password">
+				<input type="password" class="password-input" placeholder="Confirm Password">
+			</div>
+		</div>
+		<button class="signin-button">Sign Up</button>
+		<h3>&copy; Petasco |2022</h3>
+		
+	</div>
+
+	
+</body>
+</html>
