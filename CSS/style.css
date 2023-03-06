@@ -340,7 +340,8 @@ p{
 .courses h2{
     justify-content: center;
     display: flex;
-    background: #0fd6e8;
+    /*background: #0fd6e8;*/
+    background: aqua;
     width: 95%;
    margin-left: 2.5rem;
    border-radius: 3rem;
