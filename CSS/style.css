@@ -1036,6 +1036,11 @@ main .header-img img{
     .popular-post .post-image{
         width: 50%;
     }
+    .courses-header{
+        justify-content: center;
+        display: flex;
+        font-size: 2.0rem;
+    }
     .courses-list li a{
         font-size: 0.8rem;
     }
