@@ -1040,6 +1040,10 @@ main .header-img img{
     .nav{
         overflow: hidden;
     }
+    .courses h2{
+        width: 50%;
+
+    }
     .course-logo img{
         width: 100%;
         height: 120%;
