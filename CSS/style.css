@@ -346,20 +346,34 @@ p{
    border-radius: 3rem;
 }
 .courses-list .list-items{
-    background-color: aqua;
+    /*background-color: rgb(232, 239, 239);*/
+    background-color: rgba(239, 244, 245, 0.732);
     padding: 0.4rem 1rem;
     margin: 0.8rem 0;
-    border-radius: 0rem;
+    border-radius: 10px;
     width: 10%;
     height: 8rem;
     display: inline-block;
     justify-content: space-between;
     font-family: Lucida sans;
+    border: solid 3px rgb(255, 255, 255);
+    /*box-shadow: 13px 13px 20px #cbced1,
+     		-13px -13px 20px #fff;*/
+    box-shadow: 13px 13px 20px #cbced1,
+     		-13px -13px 20px #fff;
+    /*box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 8px #fff;*/
+
+}
+.courses-list .list-items:hover{
+    background: aqua;
+    transform: scale(1.2);
+    
 }
 .courses-list li a{
     justify-content: center;
     display: flex;
     font-size: 1.2rem;
+    padding-top: 0.5rem;
 }
 /*.list-items:hover{
     cursor: pointer;
@@ -373,7 +387,7 @@ p{
 .course-logo img{
     width: 50%;
     height: 50%;
-    padding-top: 1.5rem;
+    padding-top: 1.0rem;
     padding-left: 1.5rem;
     justify-content: center;
 }
