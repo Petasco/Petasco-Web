@@ -974,6 +974,10 @@ main .header-img img{
         font-size: 1.0rem;
     }
 
+    .courses-list .list-items{
+        width: 20%;
+        height: 8.5rem;
+    }
     .courses-list li a{
         font-size: .9rem;
     }
