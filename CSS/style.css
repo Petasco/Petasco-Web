@@ -421,9 +421,9 @@ p{
 
 
 
-/* ~~~~~~~~~~~~~~~~~~~~~~ Blog Carousel ~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~~~~ Blog Carousel ~~~~~~~~~~~~~~~~~~~ ======================Blog Page======================== */
 main .blog{
-    background: url('/images/img1.jpg');
+    
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
