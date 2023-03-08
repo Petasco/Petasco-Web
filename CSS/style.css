@@ -276,6 +276,8 @@ p{
 /* ----------------xxx--------- nav bar ----------------xxx-------------- */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~ main content ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
 /* /////////////////// site title \\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .site-title{
     background: url('../Photos/world.jpg');
@@ -327,6 +329,29 @@ p{
     font-weight: 600;
 }
 /* /////// xxx ///// site title \\\\\\\\\ xxx \\\\\\\\\*/
+
+/* +++++++++++++++++++++++++++++++++ launch time ++++++++++++++++++++++++*/
+.launch-time{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.notice h5{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.launch-time div{
+    flex-basis: 150px;
+    background-color: #00000069;
+}
+.launch-time div p{
+    font-size: 80px;
+    top: -70px;
+}
+.launch-time div span{
+    font-size: 20px;
+    color: rgb(242, 12, 12);
+}
 
 /* ----------- -------- Courses  ---------- --------*/
 .courses-header{
