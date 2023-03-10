@@ -1171,6 +1171,9 @@ main .header-img img{
         padding-left: -80px;
         justify-content: center;
     }
+    .card-wrapper{
+        margin-left: 0;
+    }
 }
 /* =========xxxxxxxxxxxxxxx======= viewport <= 520px =======xxxxxxxxxx==================*/
 
