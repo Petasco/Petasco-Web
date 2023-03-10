@@ -9,10 +9,10 @@ const responsive = {
         items: 2
     },
     950: {
-        items: 3
+        items: 4
     },
     2000: {
-        items: 4
+        items: 5
     },
 }
 
@@ -98,3 +98,46 @@ var x = setInterval(function(){
     }
 
 }, 1000);
+
+
+
+
+/*
+ const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+*/
+
+  var swiper = new swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination:{
+        el:".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
