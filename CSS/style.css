@@ -729,9 +729,9 @@ a .header{
     background: #e2dbdb;
 }
 .slide-container{
-    max-width: 1600px;
+    max-width: 2500px;
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
 }
 .slide-content{
     margin: 0 20px;
@@ -743,10 +743,13 @@ a .header{
     border-radius: 25px;
     background-color: #FFF;
     box-shadow: 1px silver;
+    justify-content: space-between;
+    
 }
 
 .card-wrapper{
     display: flex;
+    justify-content: space-between;
     margin: 0 30px;
 }
 .image-content,
@@ -1159,6 +1162,12 @@ main .header-img img{
         height: 120%;
         padding-left: .5rem;
         padding-top: 2.5rem;
+    }
+    .card-image{
+        width: 260px;
+    }
+    .card{
+        width: 280px;
     }
 }
 /* =========xxxxxxxxxxxxxxx======= viewport <= 520px =======xxxxxxxxxx==================*/
