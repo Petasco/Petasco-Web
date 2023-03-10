@@ -1168,6 +1168,8 @@ main .header-img img{
     }
     .card{
         width: 280px;
+        padding-left: -80px;
+        justify-content: center;
     }
 }
 /* =========xxxxxxxxxxxxxxx======= viewport <= 520px =======xxxxxxxxxx==================*/
