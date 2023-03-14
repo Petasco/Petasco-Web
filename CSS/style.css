@@ -422,6 +422,7 @@ p{
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~ Blog Carousel ~~~~~~~~~~~~~~~~~~~ ======================Blog Page======================== */
+<<<<<<< HEAD
 
 section .blog-card-category{
     background: url('../Pixabay/industry.jpg');
@@ -444,6 +445,8 @@ section .category-card-title{
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx card xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+=======
+>>>>>>> parent of 38ce497 (blog page edited)
 main .blog{
     background-repeat: no-repeat;
     background-position: right;
