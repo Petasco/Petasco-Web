@@ -8,19 +8,18 @@
     <title>PETASCO</title>
 
     <!-- CSS linking -->
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./About/about-us.css">
-    <link rel="stylesheet" href="./CSS/admin.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/admin.css">
 
     <!-- Font awesome icons linking -->
-    <link rel="stylesheet" href="./CSS/all.css"></link>
+    <link rel="stylesheet" href="../CSS/all.css"></link>
 
     <!-- owl carousel css linking -->
-    <link rel="stylesheet" href="./CSS/owl.carousel.min.css"></link>
-    <link rel="stylesheet" href="./CSS/owl.theme.default.min.css"></link>
+    <link rel="stylesheet" href="../CSS/owl.carousel.min.css"></link>
+    <link rel="stylesheet" href="../CSS/owl.theme.default.min.css"></link>
 
     <!-- Amination on Scroll (AOS) Library  css file linking -->
-    <link rel="stylesheet" href="./CSS/aos.css"></link>
+    <link rel="stylesheet" href="../CSS/aos.css"></link>
 
 
 
@@ -34,8 +33,8 @@
         <!------------------------------------------- div 1 ------------------------------------- -->
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="signin.html"><img src="./Logo/petascologo.jpg" alt="Logo" class="logo"></img></a>
-                <a href="signin.html" class="text-gray">PETASCO</a>
+                <a href="../signin.html"><img src="../Logo/petascologo.jpg" alt="Logo" class="logo"></img></a>
+                <a href="../signin.html" class="text-gray">PETASCO</a>
             </div>
             <!------- Toggle menu for mobiles or secreen <= 750px ------ -->
             <div class="toggle-collapse">
@@ -47,13 +46,13 @@
             <div class="menu">
                 <ul class="nav-item">
                     <li class="nav-link">
-                        <a href="index.html">HOME</a>
+                        <a href="../index.html">HOME</a>
                     </li>
                     <li class="nav-link">
-                        <a href="about.html">ABOUT</a>
+                        <a href="../about.html">ABOUT</a>
                     </li>
                     <li class="nav-link">
-                        <a href="blog.html">BLOGS  <i class="fas fa-caret-down"></i></a>
+                        <a href="../blog.html">BLOGS  <i class="fas fa-caret-down"></i></a>
                         <!--
                             <ul class="sub-nav">
                             <li><a href="#">Programming</a></li>
@@ -84,11 +83,11 @@
                     </li>
                     -->
                     <li class="nav-link">
-                        <a href="contact.html">CONTACT</a>
+                        <a href="../contact.html">CONTACT</a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="signin.html">LOGIN</a>
+                        <a href="../signin.html">LOGIN</a>
                     </li>
                 </ul>
             </div>
@@ -116,36 +115,46 @@
     <!-- ===========xx=========== nav  =====================xx=============-->
 
    
-    <main class="sign-page">
-        <div class="login-div">
-			<div class="title">WELCOME</div>
-			<div class="nname">To</div>
-			<div class="sub-title">PETASCO</div>
-			<div class="form">
-				<div class="username">
-					<input type="text" class="user-input" placeholder="First Name">
-				</div>
-				<div class="username">
-					<input type="text" class="user-input" placeholder="Last Name">
-				</div>
-				<div class="username">
-					<input type="text" class="user-input" placeholder="Username">
-				</div>
-				<div class="username">
-					<input type="text" class="user-input" placeholder="Email">
-				</div>
-				<div class="password">
-					<input type="password" class="password-input" placeholder="Password">
-				</div>
-				<div class="password">
-					<input type="password" class="password-input" placeholder="Confirm Password">
-				</div>
-			</div>
-			<a href="signin.html"><button class="signin-button">Sign Up</button></a>
-			<h3><a href="signin.html">Have an Account? Login</a> </h3>
-			
-		</div>
-    
+    <main class="add-post">
+        <section class="add-post-form">
+            <div class="post-form">
+                <h2>Add Post</h2>
+
+                <form action="" enctype="multipart/form-data">
+                    <input type="text" class="title-input" placeholder="Title">
+                    <h4>Select Category</h4>
+                    <select name="" id="post-category">
+                        <option value="1">Programming</option>
+                        <option value="1">Blockchain</option>
+                        <option value="1">Technology</option>
+                        <option value="1">Web Development</option>
+                        <option value="1">Mobile Development</option>
+                        <option value="1">Desktop Development</option>
+                        <option value="1">Cyber Security</option>
+                        <option value="1">Office Tools</option>
+                        <option value="1">Networking</option>
+                        
+                    </select>
+                    <textarea name="" placeholder="Body" cols="47" rows="10"></textarea>
+                    <div class="form-control">
+                        <input type="checkbox" id="is_popularPost">
+                        <label for="is_popularPost">Popular Post</label>
+                        <input type="checkbox" id="is_recentPost">
+                        <label for="is_recentPost">Recent Post</label>
+                        <input type="checkbox" id="is_featuredPost">
+                        <label for="is_featuredPost">Featured Post</label>
+                    </div>
+                    <div class="form-control"> 
+                        <label for="thumbtail">Add Thumbnail</label>
+                        <div>
+                            <input type="file" id="thumbtail">
+                        </div>
+                    </div>
+                   <button type="submit"  class="publish-btn btn">Publish</button>
+                </form>
+            </div>
+
+        </section>
     </main>
 
 
@@ -175,14 +184,14 @@
             <div class="instagram" data-aos="fade-left" data-aos-delay="300">
                 <h2>Instagram</h2>
                 <div class="flex-row">
-                    <img src="./images/img (10).jpg" alt="Instagram Image">
-                    <img src="./images/img (13).jpg" alt="Instagram Image">
-                    <img src="./images/img1.jpg" alt="Instagram Image">
+                    <img src="../images/img (10).jpg" alt="Instagram Image">
+                    <img src="../images/img (13).jpg" alt="Instagram Image">
+                    <img src="../images/img1.jpg" alt="Instagram Image">
                 </div>
                 <div class="flex-row">
-                    <img src="./images/bg.jpg" alt="Instagram Image">
-                    <img src="./images/HR-GR8.jpg" alt="Instagram Image">
-                    <img src="./images/960x0.jpg" alt="Instagram Image">
+                    <img src="../images/bg.jpg" alt="Instagram Image">
+                    <img src="../images/HR-GR8.jpg" alt="Instagram Image">
+                    <img src="../images/960x0.jpg" alt="Instagram Image">
                 </div>
             </div>
             <!-- Newsletter-->
@@ -222,28 +231,20 @@
       <!-- =================xxx============= Footer  =======================xxx==============-->
 
       <!-- Amination on Scroll (AOS) Library JS file linking -->
-      <script src="./JS/aos.js"></script>
+      <script src="../JS/aos.js"></script>
     <!--========================= Jquery  file=============================== -->
-    <script src="./JS/Jquery3.6.1.min.js"></script>
+    <script src="../JS/Jquery3.6.1.min.js"></script>
 
      <!-- owl carousel js linking -->
-     <script src="./JS/owl.carousel.min.js"></script>
+     <script src="../JS/owl.carousel.min.js"></script>
 
      
     <!--========================== JavaScript file ================== -->
-    <script src="./JS/main.js"></script>
+    <script src="../JS/main.js"></script>
 
     
 </body>
 </html>
-
-
-
-
-
-
-
-
 
 
 
