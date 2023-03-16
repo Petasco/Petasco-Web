@@ -274,3 +274,8 @@ textarea{
 .user-avatar{
     margin-top: 1.5rem;
 }
+
+/* ======================== edit user ========================*/
+.edit-user-role{
+    margin-bottom: 3rem;
+}
