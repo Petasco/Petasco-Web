@@ -268,7 +268,7 @@ textarea{
    font-weight: 800;
    border: #a7aaaf;
 }
-#user-role:active{
+#user-role:focus{
     border: none;
 }
 .user-avatar{
@@ -278,4 +278,7 @@ textarea{
 /* ======================== edit user ========================*/
 .edit-user-role{
     margin-bottom: 3rem;
+}
+.edit-user-role:focus{
+    border: none;
 }
