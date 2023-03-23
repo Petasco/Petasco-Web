@@ -391,7 +391,7 @@ textarea{
 
 @media screen and (max-width: 720px) {
    .dashboard{
-    margin-top: 5rem;
+    margin-top: 0rem;
    }
    .dashboard-container{
     grid-template-columns: 1fr;
