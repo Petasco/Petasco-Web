@@ -407,12 +407,12 @@ textarea{
     position: fixed;
     box-shadow: 2rem 0 4rem rgba(0, 0, 0, 0.4);
     left: -100%;
-    height: 150vh;
+    height: 100vh;
     transition: all 2s;
    }
    .dashboard aside a{
     font-size: 0.8rem;
-    padding: 0.1rem;
+    padding: 0 0.2rem 0 0.2rem;
 }
    .dashboard .sidebar-toggle{
     display: inline-block;
@@ -442,5 +442,11 @@ textarea{
 .dashboard main table td{
     padding: 0.2rem;
     font-size: 0.6rem;
+}
+
+/* ====================== add post ======================*/
+.post-form{
+    margin-left: -8rem;
+    /*background-color: rebeccapurple;*/
 }
 }
