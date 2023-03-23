@@ -144,17 +144,3 @@ var x = setInterval(function(){
 
 
 
-
-// ==================== sidebar toggle for admiin ==================================
-const sidebar = document.querySelector('aside');
-const showSidebarBtn = document.querySelector('#show-sidebar-btns');
-const hideSidebarBtn = document.querySelector('#hide-sidebar-btns');
-
-
-const showSidebar = () => {
-    sidebar.style.left = '0';
-    showSidebarBtn.style.display = 'none';
-    hideSidebarBtn.style.display = 'inline-block';
-}
-
-showSidebarBtn.addEventListener('click', showSidebar);

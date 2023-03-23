@@ -33,7 +33,7 @@
         <!------------------------------------------- div 1 ------------------------------------- -->
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="../signin.html"><img src="./Logo/petascologo.jpg" alt="Logo" class="logo"></img></a>
+                <a href="../signin.html"><img src="../Logo/petascologo.jpg" alt="Logo" class="logo"></img></a>
                 <a href="../signin.html" class="text-gray">PETASCO</a>
             </div>
             <!------- Toggle menu for mobiles or secreen <= 750px ------ -->
@@ -113,47 +113,70 @@
         </div>
     </nav>
     <!-- ===========xx=========== nav  =====================xx=============-->
+    <section class="dashboard">
+        <div class="container dashboard-container">
+            <button id="show-sidebar-btns" class="sidebar-toggle"><i class="fas fa-bars"></i></button>
+            <button id="hide-sidebar-btns" class="sidebar-toggle"><i class="fas fa-close"></i></button>
+            <aside>
+                <ul>
+                    <li><a href="addPost.html">
+                        <i class="fa-brands fa-facebook"></i><h4>Add Post</h4>
+                    </a></li>
+                    <li><a href="dashboard.html">
+                        <i class="fa-brands fa-linkedin"></i><h4>Manage Posts</h4>
+                    </a></li>
+                    <li><a href="addUser.html" class="active">
+                        <i class="fa-brands fa-tiktok"></i><h4>Add User</h4>
+                    </a></li>
+                    <li><a href="manageUsers.html">
+                        <i class="fa-brands fa-youtube"></i><h4>Manage Users</h4>
+                    </a></li>
+                    <li><a href="manageCategory.html">
+                        <i class="fa-brands fa-linkedin"></i><h4>Manage Categories</h4>
+                    </a></li>
+                </ul>
+            </aside>
 
-   
-    <main class="sign-page">
-        <div class="login-div">
-			<div class="title">Add User</div>
-			<div class="form">
-				<div class="username">
-					<input type="text" class="user-input" placeholder="First Name">
-				</div>
-				<div class="username">
-					<input type="text" class="user-input" placeholder="Last Name">
-				</div>
-				<div class="username">
-					<input type="text" class="user-input" placeholder="Username">
-				</div>
-				<div class="username">
-					<input type="text" class="user-input" placeholder="Email">
-				</div>
-				<div class="password">
-					<input type="password" class="password-input" placeholder="Password">
-				</div>
-				<div class="password">
-					<input type="password" class="password-input" placeholder="Confirm Password">
-				</div>
-               <div>
-                <select name="" id="user-role">
-                    <option value="0">Author</option>
-                    <option value="1">Admin</option>
-                </select>
-               </div>
- 
-                <div class="user-avatar">
-                    <label for="thumbtail">User Avatar</label>
-                <input type="file" id="thumbtail">
+            <main class="addUser-page">
+                <div class="login-div">
+                    <div class="title">Add User</div>
+                    <div class="form">
+                        <div class="username">
+                            <input type="text" class="user-input" placeholder="First Name">
+                        </div>
+                        <div class="username">
+                            <input type="text" class="user-input" placeholder="Last Name">
+                        </div>
+                        <div class="username">
+                            <input type="text" class="user-input" placeholder="Username">
+                        </div>
+                        <div class="username">
+                            <input type="text" class="user-input" placeholder="Email">
+                        </div>
+                        <div class="password">
+                            <input type="password" class="password-input" placeholder="Password">
+                        </div>
+                        <div class="password">
+                            <input type="password" class="password-input" placeholder="Confirm Password">
+                        </div>
+                    <div>
+                        <select name="" id="user-role">
+                            <option value="0">Author</option>
+                            <option value="1">Admin</option>
+                        </select>
+                    </div>
+        
+                        <div class="user-avatar">
+                            <label for="thumbtail">User Avatar</label>
+                        <input type="file" id="thumbtail">
+                        </div>
+                    </div>
+                    <a href="signin.html"><button class="signin-button">Add User</button></a>
                 </div>
-			</div>
-			<a href="signin.html"><button class="signin-button">Add User</button></a>
-		</div>
-    
-    </main>
-
+            
+            </main>
+        </div>
+    </section>
 
     <!-- ================================== Footer  =========================================-->
 
@@ -238,6 +261,7 @@
      
     <!--========================== JavaScript file ================== -->
     <script src="../JS/main.js"></script>
+    <script src="admin.js"></script>
 
     
 </body>

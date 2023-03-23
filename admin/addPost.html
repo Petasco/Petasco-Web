@@ -114,49 +114,75 @@
     </nav>
     <!-- ===========xx=========== nav  =====================xx=============-->
 
+
+    <section class="dashboard">
+        <div class="container dashboard-container">
+            <button id="show-sidebar-btns" class="sidebar-toggle"><i class="fas fa-bars"></i></button>
+            <button id="hide-sidebar-btns" class="sidebar-toggle"><i class="fas fa-close"></i></button>
+            <aside>
+                <ul>
+                    <li><a href="addPost.html" class="active">
+                        <i class="fa-brands fa-facebook"></i><h4>Add Post</h4>
+                    </a></li>
+                    <li><a href="dashboard.html">
+                        <i class="fa-brands fa-linkedin"></i><h4>Manage Posts</h4>
+                    </a></li>
+                    <li><a href="addUser.html">
+                        <i class="fa-brands fa-tiktok"></i><h4>Add User</h4>
+                    </a></li>
+                    <li><a href="manageUsers.html">
+                        <i class="fa-brands fa-youtube"></i><h4>Manage Users</h4>
+                    </a></li>
+                    <li><a href="manageCategory.html">
+                        <i class="fa-brands fa-linkedin"></i><h4>Manage Categories</h4>
+                    </a></li>
+                </ul>
+            </aside>
    
-    <main class="add-post">
-        <section class="add-post-form">
-            <div class="post-form">
-                <h2>Add Post</h2>
+            <main class="add-post">
+                <section class="add-post-form">
+                    <div class="post-form">
+                        <h2>Add Post</h2>
 
-                <form action="" enctype="multipart/form-data">
-                    <input type="text" class="title-input" placeholder="Title">
-                    <h4>Select Category</h4>
-                    <select name="" id="post-category">
-                        <option value="1">Programming</option>
-                        <option value="1">Blockchain</option>
-                        <option value="1">Technology</option>
-                        <option value="1">Web Development</option>
-                        <option value="1">Mobile Development</option>
-                        <option value="1">Desktop Development</option>
-                        <option value="1">Cyber Security</option>
-                        <option value="1">Office Tools</option>
-                        <option value="1">Networking</option>
-                        
-                    </select>
-                    <textarea name="" placeholder="Body" cols="47" rows="10"></textarea>
-                    <div class="form-control">
-                        <input type="checkbox" id="is_popularPost">
-                        <label for="is_popularPost">Popular Post</label>
-                        <input type="checkbox" id="is_recentPost">
-                        <label for="is_recentPost">Recent Post</label>
-                        <input type="checkbox" id="is_featuredPost">
-                        <label for="is_featuredPost">Featured Post</label>
+                        <form action="" enctype="multipart/form-data">
+                            <input type="text" class="title-input" placeholder="Title">
+                            <h4>Select Category</h4>
+                            <select name="" id="post-category">
+                                <option value="1">Programming</option>
+                                <option value="1">Blockchain</option>
+                                <option value="1">Technology</option>
+                                <option value="1">Web Development</option>
+                                <option value="1">Mobile Development</option>
+                                <option value="1">Desktop Development</option>
+                                <option value="1">Cyber Security</option>
+                                <option value="1">Office Tools</option>
+                                <option value="1">Networking</option>
+                                
+                            </select>
+                            <textarea name="" placeholder="Body" cols="47" rows="10"></textarea>
+                            <div class="form-control">
+                                <input type="checkbox" id="is_popularPost">
+                                <label for="is_popularPost">Popular Post</label>
+                                <input type="checkbox" id="is_recentPost">
+                                <label for="is_recentPost">Recent Post</label>
+                                <input type="checkbox" id="is_featuredPost">
+                                <label for="is_featuredPost">Featured Post</label>
+                            </div>
+                            <div class="form-control"> 
+                                <label for="thumbtail">Add Thumbnail</label>
+                                <div>
+                                    <input type="file" id="thumbtail">
+                                </div>
+                            </div>
+                        <button type="submit"  class="publish-btn btn">Publish</button>
+                        </form>
                     </div>
-                    <div class="form-control"> 
-                        <label for="thumbtail">Add Thumbnail</label>
-                        <div>
-                            <input type="file" id="thumbtail">
-                        </div>
-                    </div>
-                   <button type="submit"  class="publish-btn btn">Publish</button>
-                </form>
-            </div>
 
-        </section>
-    </main>
+                </section>
+            </main>
 
+        </div>
+    </section>
 
     <!-- ================================== Footer  =========================================-->
 
@@ -241,6 +267,7 @@
      
     <!--========================== JavaScript file ================== -->
     <script src="../JS/main.js"></script>
+    <script src="admin.js"></script>
 
     
 </body>
