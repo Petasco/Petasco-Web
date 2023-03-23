@@ -326,6 +326,8 @@ textarea{
 .dashboard main h2{
     margin: 0 0 2rem 0;
     line-height: 1;
+    display: flex;
+    justify-content: center;
 }
 /*    table */
 .dashboard main table{
@@ -410,6 +412,7 @@ textarea{
    }
    .dashboard aside a{
     font-size: 0.8rem;
+    padding: 0.1rem;
 }
    .dashboard .sidebar-toggle{
     display: inline-block;
@@ -432,4 +435,12 @@ textarea{
    #hide-sidebar-btns{
     display: none;
    }
+   .dashboard main table th{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+.dashboard main table td{
+    padding: 0.2rem;
+    font-size: 0.6rem;
+}
 }
