@@ -449,4 +449,25 @@ textarea{
     margin-left: -8rem;
     /*background-color: rebeccapurple;*/
 }
+.title-input{
+    width: 350px;
+}
+#post-category{
+    width: 350px;
+}
+
+/* ================ add user =============== */
+.addUser-page .login-div{
+    width: 300px;
+    background: #02c8db;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+#user-role{
+    width: 200px;
+}
+/* ========== sign up and signin ====================*/
+.sign-page .login-div{
+    width: 350px;
+}
 }
