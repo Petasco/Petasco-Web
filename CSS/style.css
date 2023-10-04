@@ -955,6 +955,43 @@ main .header-img img{
     .footer .container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .site-title .bg-text{
+        font-size: 1.5rem;
+    }
+    .site-title{
+        display: flex;
+        justify-content: center;
+    }
+    .notice{
+        justify-content: center;
+        margin-left: 3rem;
+    }
+    .launch-time{
+        height: 10rem;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .notice h5{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    .launch-time div{
+        flex-basis: 150px;
+        background-color: #00000069;
+    }
+    .launch-time div p{
+        font-size: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .launch-time div span{
+        font-size: 15px;
+        color: rgb(228, 228, 228);
+        margin-top: -2.5rem;
+    }
+    
 }
 
 /* =============xxx=============== viewport <= 1130px ==============xx==============*/
