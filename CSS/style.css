@@ -64,7 +64,7 @@ p{
     font-family: Bodoni MT;
     font-size: 1.2rem;
 }
-/* -----------X--------------- Global Article Styling  -------XXXXXXXXXXXXXXXX---------*/
+/* -----------X--------------- Global Article Styling  -------XX---------*/
 .article-title{
     font-size: 30px;
 }
@@ -333,6 +333,7 @@ p{
 /* +++++++++++++++++++++++++++++++++ launch time ++++++++++++++++++++++++*/
 
 .launch-time{
+    height: 10rem;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -347,11 +348,13 @@ p{
 }
 .launch-time div p{
     font-size: 80px;
-    top: -70px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .launch-time div span{
     font-size: 20px;
     color: rgb(242, 12, 12);
+    margin-top: -2.5rem;
 }
 
 /* ----------- -------- Courses  ---------- --------*/
