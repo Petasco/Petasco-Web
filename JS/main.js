@@ -74,7 +74,7 @@ for (const copyTxt of copyText) {
 }
 
 // ============== launch time =============================
-var countDown = new Date ("May 30, 2023 00:00:00").getTime();
+var countDown = new Date ("December 25, 2023 00:00:00").getTime();
 var x = setInterval(function(){
     var now = new Date().getTime();
     var distance = countDown - now;
