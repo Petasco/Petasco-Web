@@ -230,7 +230,9 @@ p{
 }
 .contact-img{
     background-image: url('../../images/contact-bg.jpg');
-    padding: 5px
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contact-heading{
     text-align: center;
@@ -246,6 +248,10 @@ p{
 .contact-info{
     padding: 40px 30px;
     box-shadow: #000;
+    border-radius: 10px;
+}
+.personal-infos{
+    margin-right: 10px;
 }
 .contact-info:hover{
     transform: scale(1.0);
