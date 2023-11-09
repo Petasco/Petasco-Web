@@ -114,6 +114,36 @@ p{
     color: black;
 }
 
+/* ------------------------------------ search bar ------------------- xxxx -----------------*/
+.search-container{
+    margin-top: 0.6rem; 
+    background: #fff;
+    height: 15px;
+    border-radius: 3rem;
+    padding: 10px 10px;
+    display: flex;
+    align-items: left;
+    transition: 0.8s;
+    box-shadow: 0 0 25px 0 #0f0f0f;
+}
+.search-container:hover input{
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.search-container input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    transition: 0.8s;
+    color: #000;
+    width: 0px;
+    height: 10px;  
+    margin: 5px;
+}
+
 /* ============================== sign up ===========================*/
 
 .login-div{
